@@ -1,0 +1,128 @@
+<ExampleScenario xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="DjVZLOiGHu"/>
+    <lastUpdated value="2021-04-12T14:34:33.789-05:00"/>
+    <source value="P6HkL3f9qI"/>
+    <profile value="KHDnKWJ5XR"/>
+    <security>
+      <system value="IKfm6jeQTU"/>
+      <version value="KKqp6iML71"/>
+      <code value="uSiWQWrZF2"/>
+      <display value="4SyyeD6NGP"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="IOf1TgEluO"/>
+      <version value="smQx_VQ526"/>
+      <code value="p8Z8DrMbVG"/>
+      <display value="2PY_HK4R1_"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="2XYZiRZ5Du"/>
+  <language value="en-US"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="P7lupmcwIf"/>
+  <identifier>
+    <use value="old"/>
+    <type>
+      <coding>
+        <system value="VHXQzg5nSr"/>
+        <version value="Rbi7RtpNYW"/>
+        <code value="wgExW6_raG"/>
+        <display value="LPvcqAK5vm"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="EskxRvI6Cf"/>
+    </type>
+    <system value="uKAPiOMEw1"/>
+    <value value="NJaWSoWdgL"/>
+    <period>
+      <start value="2021-04-12T14:34:33.777-05:00"/>
+      <end value="2021-04-12T14:34:33.777-05:00"/>
+    </period>
+  </identifier>
+  <version value="9Y8Z7oEgPR"/>
+  <name value="VHNuICrBoc"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2021-04-12T14:34:33.788-05:00"/>
+  <publisher value="MNtQF8B6Yz"/>
+  <contact>
+    <name value="FSjVwPPTXF"/>
+    <telecom>
+      <system value="fax"/>
+      <value value="P_HnMR1YWw"/>
+      <use value="work"/>
+      <rank value="609335941"/>
+      <period>
+        <start value="2021-04-12T14:34:33.778-05:00"/>
+        <end value="2021-04-12T14:34:33.778-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <useContext>
+    <code>
+      <system value="XCrjXuIeS3"/>
+      <version value="OD8pjiFXIk"/>
+      <code value="5crmoRFROJ"/>
+      <display value="vxV0TlcAUu"/>
+      <userSelected value="true"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="8bjWoc_TZf"/>
+        <version value="x781jR4JE1"/>
+        <code value="8wewUA2k7z"/>
+        <display value="o8QemELPRu"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="80H20aErF_"/>
+    </valueCodeableConcept>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="8OTo3dy5Yc"/>
+      <version value="mGmEqru5Nw"/>
+      <code value="uA4Bgl39ky"/>
+      <display value="hW4eSTxYgX"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="Y6_EbL336n"/>
+  </jurisdiction>
+  <copyright value="M_8Y06mH9Q"/>
+  <purpose value="ZvNPgLMRyE"/>
+  <actor>
+    <actorId value="xkXppUp0M8"/>
+    <type value="person"/>
+    <name value="HQntPLn2pQ"/>
+    <description value="tgTpiixFv1"/>
+  </actor>
+  <instance>
+    <resourceId value="8pP8V2hlAl"/>
+    <resourceType value="CommunicationRequest"/>
+    <name value="HyTZtHWkd4"/>
+    <description value="sN93VxOQGZ"/>
+    <version>
+      <versionId value="SNT6VLJolb"/>
+      <description value="8RvXCy9yHL"/>
+    </version>
+    <containedInstance>
+      <resourceId value="yI5cTbI8tx"/>
+      <versionId value="bQ9cXgqHIn"/>
+    </containedInstance>
+  </instance>
+  <process>
+    <title value="vQJw1x8Wkx"/>
+    <description value="HjKWGHC0mo"/>
+    <preConditions value="jX14Iy5ZSa"/>
+    <postConditions value="mBJEBDAsTS"/>
+  </process>
+  <workflow value="cpo_FvtMhg"/>
+</ExampleScenario>

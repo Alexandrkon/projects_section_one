@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "cs2",
+    "url": "http://ibm.com/fhir/CodeSystem/cs2",
+    "version": "1.0.0",
+    "status": "active",
+    "caseSensitive": false,
+    "hierarchyMeaning": "is-a",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "d",
+            "display": "Concept d"
+        },
+        {
+            "code": "e",
+            "display": "Concept e"
+        },
+        {
+            "code": "f",
+            "display": "Concept f"
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+<BiologicallyDerivedProduct xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="pRpGRhBPjJ"/>
+    <lastUpdated value="2021-04-12T14:34:27.228-05:00"/>
+    <source value="kNovRCtUms"/>
+    <profile value="GZ36LIdDZY"/>
+    <security>
+      <system value="tT9iWg5OEO"/>
+      <version value="CbrTCfz95e"/>
+      <code value="B6uLFnj965"/>
+      <display value="Tv9EMOfM_W"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="hZleOZVuDN"/>
+      <version value="UyhnAWBHq3"/>
+      <code value="kinm6DB1N4"/>
+      <display value="d71XPQZLbe"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="HydtCYAXTh"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="5QIgPh5uvr"/>
+        <version value="CeWCk6OXCX"/>
+        <code value="ORmp5y9Mzb"/>
+        <display value="MDASEs5vim"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="3sf2nzTbO7"/>
+    </type>
+    <system value="5IP1VFoYu8"/>
+    <value value="mYsAUWrLvd"/>
+    <period>
+      <start value="2021-04-12T14:34:27.214-05:00"/>
+      <end value="2021-04-12T14:34:27.215-05:00"/>
+    </period>
+  </identifier>
+  <productCategory value="fluid"/>
+  <productCode>
+    <coding>
+      <system value="ClyTcO1ANc"/>
+      <version value="gi62l8HIMK"/>
+      <code value="VYEJeOUWyo"/>
+      <display value="b0Z0S9aMgk"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="sYASnUphE4"/>
+  </productCode>
+  <status value="available"/>
+  <request>
+    <reference value="ServiceRequest/2Oe8HInwLQ"/>
+    <type value="ServiceRequest"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="sDhgSCa4iO"/>
+          <version value="CanjpaYJ3A"/>
+          <code value="xxhpCoJenS"/>
+          <display value="2q2RdCkZZX"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="5WkNKlut_Q"/>
+      </type>
+      <system value="KXrobDdTDX"/>
+      <value value="JAQsrS9ikO"/>
+      <period>
+        <start value="2021-04-12T14:34:27.223-05:00"/>
+        <end value="2021-04-12T14:34:27.224-05:00"/>
+      </period>
+    </identifier>
+    <display value="Oryr8qcUJ6"/>
+  </request>
+  <quantity value="510153817"/>
+  <parent>
+    <reference value="BiologicallyDerivedProduct/Yvmk0YDm2l"/>
+    <type value="BiologicallyDerivedProduct"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="NorZPUl3vL"/>
+          <version value="1rmnrKhjiH"/>
+          <code value="2ZVWnisZQd"/>
+          <display value="4G3CTKxCn1"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="wjXrUJ9qji"/>
+      </type>
+      <system value="Sxwee2yYaE"/>
+      <value value="c73bGIJkBa"/>
+      <period>
+        <start value="2021-04-12T14:34:27.224-05:00"/>
+        <end value="2021-04-12T14:34:27.225-05:00"/>
+      </period>
+    </identifier>
+    <display value="des1GcZmQa"/>
+  </parent>
+  <collection>
+    <collector>
+      <reference value="Practitioner/xdoqjNi2js"/>
+      <type value="Practitioner"/>
+      <identifier>
+        <use value="official"/>
+        <type>
+          <coding>
+            <system value="y7MjZnKzVy"/>
+            <version value="NYHZrDcxYH"/>
+            <code value="0nitNT88_A"/>
+            <display value="LuWK7rBzzb"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="92Smv7vHd6"/>
+        </type>
+        <system value="1CK5zeaGG7"/>
+        <value value="6LIHIw1bTY"/>
+        <period>
+          <start value="2021-04-12T14:34:27.211-05:00"/>
+          <end value="2021-04-12T14:34:27.211-05:00"/>
+        </period>
+      </identifier>
+      <display value="FcyYGX00Dm"/>
+    </collector>
+    <source>
+      <reference value="Patient/AbVTPjCoHA"/>
+      <type value="Patient"/>
+      <identifier>
+        <use value="usual"/>
+        <type>
+          <coding>
+            <system value="urDqxxXDbS"/>
+            <version value="FOC3xzW42G"/>
+            <code value="Kx_WmX8Vnl"/>
+            <display value="kme9ewU6DM"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="En7cFzJlKT"/>
+        </type>
+        <system value="xMYa6Dsjeb"/>
+        <value value="XBZxVQWqcc"/>
+        <period>
+          <start value="2021-04-12T14:34:27.213-05:00"/>
+          <end value="2021-04-12T14:34:27.213-05:00"/>
+        </period>
+      </identifier>
+      <display value="gLicHkkXAb"/>
+    </source>
+    <collectedDateTime value="2021-04-12T14:34:27.211-05:00"/>
+  </collection>
+  <processing>
+    <description value="e5DC0x0KUu"/>
+    <procedure>
+      <coding>
+        <system value="Oea2D4nuIa"/>
+        <version value="Hf4GO1h1KW"/>
+        <code value="QM9Yr08QOa"/>
+        <display value="b3WZCrgLW9"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="PzI3b6SZ0D"/>
+    </procedure>
+    <additive>
+      <reference value="Substance/pg0rLz6E4y"/>
+      <type value="Substance"/>
+      <identifier>
+        <use value="temp"/>
+        <type>
+          <coding>
+            <system value="yFJwU8rDXi"/>
+            <version value="6ozDBZQHX6"/>
+            <code value="nAmX8bQSXz"/>
+            <display value="jj8iMmqE4d"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="FFI7Mo2KK2"/>
+        </type>
+        <system value="CdTwDsVMz6"/>
+        <value value="f6B_OeGja1"/>
+        <period>
+          <start value="2021-04-12T14:34:27.218-05:00"/>
+          <end value="2021-04-12T14:34:27.218-05:00"/>
+        </period>
+      </identifier>
+      <display value="Bvq6IJ3S7y"/>
+    </additive>
+    <timeDateTime value="2021-04-12T14:34:27.219-05:00"/>
+  </processing>
+  <manipulation>
+    <description value="u1VgvElmsV"/>
+    <timeDateTime value="2021-04-12T14:34:27.22-05:00"/>
+  </manipulation>
+  <storage>
+    <description value="XZcmOr7dGG"/>
+    <temperature value="452167205245"/>
+    <scale value="kelvin"/>
+    <duration>
+      <start value="2021-04-12T14:34:27.221-05:00"/>
+      <end value="2021-04-12T14:34:27.221-05:00"/>
+    </duration>
+  </storage>
+</BiologicallyDerivedProduct>

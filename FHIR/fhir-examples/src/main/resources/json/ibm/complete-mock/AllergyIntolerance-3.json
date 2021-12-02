@@ -1,0 +1,274 @@
+{
+    "resourceType": "AllergyIntolerance",
+    "meta": {
+        "versionId": "fUnrgV8MvF",
+        "lastUpdated": "2021-04-12T14:34:28.832-05:00",
+        "source": "Y7hqwq0gCI",
+        "profile": [
+            "tM8bN9sTmr"
+        ],
+        "security": [
+            {
+                "system": "6x82w9H9Oq",
+                "version": "jAraANxkby",
+                "code": "q50OnW84Gj",
+                "display": "ZpPMRi3732",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "wSfUoWsK0p",
+                "version": "oAc_PiW6Cy",
+                "code": "o5n1c4714t",
+                "display": "oqDlABf_89",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "qVNDa68nDd",
+    "language": "en-US",
+    "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "identifier": [
+        {
+            "use": "secondary",
+            "type": {
+                "coding": [
+                    {
+                        "system": "RBoLMzGiVQ",
+                        "version": "vgqzoXsG56",
+                        "code": "Z2ETubMon2",
+                        "display": "WzynWLP03e",
+                        "userSelected": true
+                    }
+                ],
+                "text": "dCHwImBUa1"
+            },
+            "system": "ESuz6BjxUO",
+            "value": "j44pe1cb7I",
+            "period": {
+                "start": "2021-04-12T14:34:28.825-05:00",
+                "end": "2021-04-12T14:34:28.825-05:00"
+            }
+        }
+    ],
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "version": "4.0.1",
+                "code": "active",
+                "display": "Active",
+                "userSelected": false
+            }
+        ],
+        "text": "active"
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                "version": "4.0.1",
+                "code": "unconfirmed",
+                "display": "Unconfirmed",
+                "userSelected": false
+            }
+        ],
+        "text": "unconfirmed"
+    },
+    "type": "allergy",
+    "category": [
+        "food"
+    ],
+    "criticality": "unable-to-assess",
+    "code": {
+        "coding": [
+            {
+                "system": "_Nh7O2o2oG",
+                "version": "gEYgW8JfGx",
+                "code": "vNi7UKZfCs",
+                "display": "o9akuiXSD1",
+                "userSelected": true
+            }
+        ],
+        "text": "klnv3FDAFo"
+    },
+    "patient": {
+        "reference": "Patient/eGkfrbJ155",
+        "type": "Patient",
+        "identifier": {
+            "use": "secondary",
+            "type": {
+                "coding": [
+                    {
+                        "system": "r3TVUlUUIS",
+                        "version": "EQMh3IYMqm",
+                        "code": "5R5P_NDxiD",
+                        "display": "XMyBBgOFDa",
+                        "userSelected": true
+                    }
+                ],
+                "text": "YixZEBvIoP"
+            },
+            "system": "7HofFmwMaF",
+            "value": "z03weWVitX",
+            "period": {
+                "start": "2021-04-12T14:34:28.824-05:00",
+                "end": "2021-04-12T14:34:28.824-05:00"
+            }
+        },
+        "display": "F2e86gty5z"
+    },
+    "encounter": {
+        "reference": "Encounter/VZxAGFFbed",
+        "type": "Encounter",
+        "identifier": {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "1eMzxhtKw7",
+                        "version": "5T8RFsI1fs",
+                        "code": "6568AwYbsr",
+                        "display": "QLqiFUy1UJ",
+                        "userSelected": true
+                    }
+                ],
+                "text": "Ajqak6v7vb"
+            },
+            "system": "44ULqAgks_",
+            "value": "QLk97NWa_f",
+            "period": {
+                "start": "2021-04-12T14:34:28.83-05:00",
+                "end": "2021-04-12T14:34:28.83-05:00"
+            }
+        },
+        "display": "yOUKp_ailQ"
+    },
+    "onsetAge": {
+        "value": 361623550220,
+        "comparator": ">=",
+        "unit": "ZxNyU5zQ1Z",
+        "system": "http://unitsofmeasure.org",
+        "code": "a"
+    },
+    "recordedDate": "2021-04-12T14:34:28.823-05:00",
+    "recorder": {
+        "reference": "Practitioner/E3d8PoKu63",
+        "type": "Practitioner",
+        "identifier": {
+            "use": "secondary",
+            "type": {
+                "coding": [
+                    {
+                        "system": "BKdZpWUmod",
+                        "version": "UdgFZ5t4AJ",
+                        "code": "GAlx6im3TG",
+                        "display": "RalAgcEbY_",
+                        "userSelected": true
+                    }
+                ],
+                "text": "QRZcZZPbZy"
+            },
+            "system": "RYG7K32AWb",
+            "value": "fy9l44KLck",
+            "period": {
+                "start": "2021-04-12T14:34:28.822-05:00",
+                "end": "2021-04-12T14:34:28.823-05:00"
+            }
+        },
+        "display": "DkpRV4Elbd"
+    },
+    "asserter": {
+        "reference": "Patient/Pm9iAiPNVV",
+        "type": "Patient",
+        "identifier": {
+            "use": "old",
+            "type": {
+                "coding": [
+                    {
+                        "system": "coiCJIzsW5",
+                        "version": "HvwZbAZQHO",
+                        "code": "nDCKwofLU6",
+                        "display": "r9HCZQGBIV",
+                        "userSelected": true
+                    }
+                ],
+                "text": "97C4XLZkqo"
+            },
+            "system": "WYXDXpmADc",
+            "value": "HBGhbQItXv",
+            "period": {
+                "start": "2021-04-12T14:34:28.826-05:00",
+                "end": "2021-04-12T14:34:28.826-05:00"
+            }
+        },
+        "display": "KbCj_Nmg2k"
+    },
+    "lastOccurrence": "2021-04-12T14:34:28.83-05:00",
+    "note": [
+        {
+            "authorString": "l5stWx2_rS",
+            "time": "2021-04-12T14:34:28.826-05:00",
+            "text": "74PZ5NqFbW"
+        }
+    ],
+    "reaction": [
+        {
+            "substance": {
+                "coding": [
+                    {
+                        "system": "Ah5N0q7KYx",
+                        "version": "4YT41D_DnW",
+                        "code": "fKYmh1u6xC",
+                        "display": "zeo15U1saE",
+                        "userSelected": true
+                    }
+                ],
+                "text": "awW1p5oGf9"
+            },
+            "manifestation": [
+                {
+                    "coding": [
+                        {
+                            "system": "B2LcTj4x__",
+                            "version": "zThtlJR8av",
+                            "code": "sOcxjLabG1",
+                            "display": "H26JhnQv0y",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "pUobAWqHPe"
+                }
+            ],
+            "description": "s1fMmDPjaa",
+            "onset": "2021-04-12T14:34:28.829-05:00",
+            "severity": "severe",
+            "exposureRoute": {
+                "coding": [
+                    {
+                        "system": "hX1IuGoPLA",
+                        "version": "UmV8uzzHrP",
+                        "code": "qjjlyvGbQG",
+                        "display": "TxAAWF9aTW",
+                        "userSelected": true
+                    }
+                ],
+                "text": "XtcWB1HnUO"
+            },
+            "note": [
+                {
+                    "authorString": "dZMIYWvhnT",
+                    "time": "2021-04-12T14:34:28.828-05:00",
+                    "text": "8XekFpXOGT"
+                }
+            ]
+        }
+    ]
+}

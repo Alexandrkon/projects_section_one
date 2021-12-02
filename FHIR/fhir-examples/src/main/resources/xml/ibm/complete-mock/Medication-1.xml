@@ -1,0 +1,144 @@
+<Medication xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="PLaUVt99Bp"/>
+    <lastUpdated value="2021-04-12T14:34:36.548-05:00"/>
+    <source value="SAPCE7dREy"/>
+    <profile value="wSV_jCZjip"/>
+    <security>
+      <system value="1ZZC7lajKk"/>
+      <version value="ea9RLpzpTa"/>
+      <code value="G_6dn_uiuY"/>
+      <display value="RAKLKhPE2f"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="B38CcxqKjl"/>
+      <version value="pcQfi5K5vY"/>
+      <code value="DwvgI1Q3Vc"/>
+      <display value="i4oqfZ65YY"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="WAcDQnxUNg"/>
+  <language value="en-US"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="CflsAodLCs"/>
+        <version value="W_nctxxh9g"/>
+        <code value="KTqdoeIB2z"/>
+        <display value="7nbXbVxh5B"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="yv3AE1jcZP"/>
+    </type>
+    <system value="QVlkEbODsZ"/>
+    <value value="dnpvOSj1MB"/>
+    <period>
+      <start value="2021-04-12T14:34:36.544-05:00"/>
+      <end value="2021-04-12T14:34:36.544-05:00"/>
+    </period>
+  </identifier>
+  <code>
+    <coding>
+      <system value="Jk0sEb5dA_"/>
+      <version value="pruv6aPcY7"/>
+      <code value="Mole4_1hNE"/>
+      <display value="p7TPxEkeb2"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="TiVdiiJfcX"/>
+  </code>
+  <status value="entered-in-error"/>
+  <manufacturer>
+    <reference value="Organization/CHmpWFQxCC"/>
+    <type value="Organization"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="LGZG_KLBg6"/>
+          <version value="T3UZPFAfJU"/>
+          <code value="aSoYALpQWY"/>
+          <display value="ktkvgBzeAB"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="epP915J80C"/>
+      </type>
+      <system value="zX7GgEh3xS"/>
+      <value value="pwmeYGrnwd"/>
+      <period>
+        <start value="2021-04-12T14:34:36.543-05:00"/>
+        <end value="2021-04-12T14:34:36.543-05:00"/>
+      </period>
+    </identifier>
+    <display value="aXd9nWXmaP"/>
+  </manufacturer>
+  <form>
+    <coding>
+      <system value="bCJJr49ZWU"/>
+      <version value="LrgJZplfTZ"/>
+      <code value="GiTjjOS5Tu"/>
+      <display value="DIxRk6BP9Z"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="7bAixPIvs7"/>
+  </form>
+  <amount>
+    <numerator>
+      <value value="520920781925"/>
+      <comparator value="&lt;="/>
+      <unit value="Bfz86rfPeF"/>
+      <system value="noBs4vEIdp"/>
+      <code value="3pFJqGE5Vq"/>
+    </numerator>
+    <denominator>
+      <value value="232102196305"/>
+      <comparator value="&lt;"/>
+      <unit value="cefC23WMKT"/>
+      <system value="q1EM8qfqtq"/>
+      <code value="HX_OsCmtv8"/>
+    </denominator>
+  </amount>
+  <ingredient>
+    <itemCodeableConcept>
+      <coding>
+        <system value="rOSWOL_c7D"/>
+        <version value="ROyWM9nc8k"/>
+        <code value="6oeyV1bIRr"/>
+        <display value="Sq3xC1l_t3"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="mxTeVuoSf8"/>
+    </itemCodeableConcept>
+    <isActive value="true"/>
+    <strength>
+      <numerator>
+        <value value="289056119635"/>
+        <comparator value="&gt;"/>
+        <unit value="YZIpsSwuC_"/>
+        <system value="0Zy8oPi8Wa"/>
+        <code value="bryQZ3HhBC"/>
+      </numerator>
+      <denominator>
+        <value value="396938663531"/>
+        <comparator value="&gt;"/>
+        <unit value="9gYBOt1oPQ"/>
+        <system value="kHBwQBVqZH"/>
+        <code value="VzdT_1MAoU"/>
+      </denominator>
+    </strength>
+  </ingredient>
+  <batch>
+    <lotNumber value="gsnmlU5irj"/>
+    <expirationDate value="2021-04-12T14:34:36.55-05:00"/>
+  </batch>
+</Medication>

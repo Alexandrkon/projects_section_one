@@ -1,0 +1,278 @@
+<DeviceUseStatement xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="MRCwZpOSpk"/>
+    <lastUpdated value="2021-04-12T14:34:37.709-05:00"/>
+    <source value="IPQKimNiWN"/>
+    <profile value="UePqLxWrHC"/>
+    <security>
+      <system value="Wuu4mA89i1"/>
+      <version value="nFAP5dWFf8"/>
+      <code value="diMDF7sDRk"/>
+      <display value="rBbsIK8P8k"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="4VlG5KZsKA"/>
+      <version value="hRMWj2_FAM"/>
+      <code value="9wKzzlD9bH"/>
+      <display value="ZOxuyslBqp"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="6Ub0i4EtEc"/>
+  <language value="en-US"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="D09QnqWXH1"/>
+        <version value="vvDquC9U1T"/>
+        <code value="HiK3EZdnBZ"/>
+        <display value="Zg6OLjVE_F"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="hacdamp6xy"/>
+    </type>
+    <system value="f7h6lU5K_E"/>
+    <value value="5GSWdvCCrP"/>
+    <period>
+      <start value="2021-04-12T14:34:37.705-05:00"/>
+      <end value="2021-04-12T14:34:37.705-05:00"/>
+    </period>
+  </identifier>
+  <basedOn>
+    <reference value="ServiceRequest/IN3ot6wzJY"/>
+    <type value="ServiceRequest"/>
+    <identifier>
+      <use value="official"/>
+      <type>
+        <coding>
+          <system value="B5Js7Tg469"/>
+          <version value="BXRldOio7F"/>
+          <code value="AoFDxkvFxS"/>
+          <display value="5KjAlJI_pT"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="muYAqvJiEO"/>
+      </type>
+      <system value="Kunucse2Zk"/>
+      <value value="M8Aj3VzpCc"/>
+      <period>
+        <start value="2021-04-12T14:34:37.701-05:00"/>
+        <end value="2021-04-12T14:34:37.701-05:00"/>
+      </period>
+    </identifier>
+    <display value="MHBHN_JsDC"/>
+  </basedOn>
+  <status value="active"/>
+  <subject>
+    <reference value="Patient/SG0ucbR8fn"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="7pph7fiWJw"/>
+          <version value="7HeK3dr_r1"/>
+          <code value="34CwZLIudV"/>
+          <display value="dsprZ0xTot"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="t9R9cKhtkb"/>
+      </type>
+      <system value="8_SVZo4a0E"/>
+      <value value="VtYYfud6W3"/>
+      <period>
+        <start value="2021-04-12T14:34:37.707-05:00"/>
+        <end value="2021-04-12T14:34:37.708-05:00"/>
+      </period>
+    </identifier>
+    <display value="mqT5KFoRqm"/>
+  </subject>
+  <derivedFrom>
+    <reference value="ServiceRequest/jCAjVsrx48"/>
+    <type value="ServiceRequest"/>
+    <identifier>
+      <use value="official"/>
+      <type>
+        <coding>
+          <system value="sa9JAnA868"/>
+          <version value="768G0p8MZq"/>
+          <code value="3AGmLpjow9"/>
+          <display value="pke1YhcXOY"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="d8ApitF4Xt"/>
+      </type>
+      <system value="77P7FBN_Ir"/>
+      <value value="dC7_oJl2BP"/>
+      <period>
+        <start value="2021-04-12T14:34:37.705-05:00"/>
+        <end value="2021-04-12T14:34:37.705-05:00"/>
+      </period>
+    </identifier>
+    <display value="wZ4ryL6cnI"/>
+  </derivedFrom>
+  <timingTiming>
+    <event value="2021-04-12T14:34:37.704-05:00"/>
+    <repeat>
+      <boundsDuration>
+        <value value="460004291637"/>
+        <comparator value="&gt;="/>
+        <unit value="LYo2xQxtoA"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="h"/>
+      </boundsDuration>
+      <count value="1001343529"/>
+      <countMax value="708221594"/>
+      <duration value="395171602042"/>
+      <durationMax value="81608187235"/>
+      <durationUnit value="d"/>
+      <frequency value="1869828327"/>
+      <frequencyMax value="1971896855"/>
+      <period value="375797676656"/>
+      <periodMax value="86957646119"/>
+      <periodUnit value="mo"/>
+      <dayOfWeek value="sat"/>
+      <when value="CM"/>
+    </repeat>
+    <code>
+      <coding>
+        <system value="T1sgULErKJ"/>
+        <version value="x02brPs9Dg"/>
+        <code value="CNhJoiCAZH"/>
+        <display value="GKyAmyw9Pi"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="TK4HvXufQP"/>
+    </code>
+  </timingTiming>
+  <recordedOn value="2021-04-12T14:34:37.705-05:00"/>
+  <source>
+    <reference value="Patient/4woQKkXfmP"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="34PHEmyZHT"/>
+          <version value="mmLDFYp1SP"/>
+          <code value="SGTwLdmbEH"/>
+          <display value="SzUsjk81BI"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="OD7imD4AmA"/>
+      </type>
+      <system value="k9MQhG13ma"/>
+      <value value="JOySpO2MUw"/>
+      <period>
+        <start value="2021-04-12T14:34:37.708-05:00"/>
+        <end value="2021-04-12T14:34:37.708-05:00"/>
+      </period>
+    </identifier>
+    <display value="BmbJB2KeWp"/>
+  </source>
+  <device>
+    <reference value="Device/BCyNTUjy3V"/>
+    <type value="Device"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="GTeyNCrs1k"/>
+          <version value="DxeHgbiawP"/>
+          <code value="rnT51gSmyA"/>
+          <display value="jKRAM9fGry"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="LRwjrbyuoA"/>
+      </type>
+      <system value="N6m2hmdTqR"/>
+      <value value="Injaa1OPYI"/>
+      <period>
+        <start value="2021-04-12T14:34:37.706-05:00"/>
+        <end value="2021-04-12T14:34:37.706-05:00"/>
+      </period>
+    </identifier>
+    <display value="azQ5BGPv_s"/>
+  </device>
+  <reasonCode>
+    <coding>
+      <system value="E3S4UOadNO"/>
+      <version value="nDyNdlv6Ia"/>
+      <code value="WaGWKB2RuR"/>
+      <display value="t7z5d_99R1"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="dxpu8IWkbC"/>
+  </reasonCode>
+  <reasonReference>
+    <reference value="Condition/XRMTjmOFy-"/>
+    <type value="Condition"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="OMz1gVBt75"/>
+          <version value="I5ynCT_zfY"/>
+          <code value="s4XJ6JFJUg"/>
+          <display value="DPednlnor2"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="A6zIU1RDxm"/>
+      </type>
+      <system value="wzSfxAOuzp"/>
+      <value value="A5Ad1sFZP6"/>
+      <period>
+        <start value="2021-04-12T14:34:37.699-05:00"/>
+        <end value="2021-04-12T14:34:37.7-05:00"/>
+      </period>
+    </identifier>
+    <display value="LqcZcVbcX2"/>
+  </reasonReference>
+  <bodySite>
+    <coding>
+      <system value="dmJJBcUahn"/>
+      <version value="SxVzuPSZME"/>
+      <code value="PaiB7Ia7lx"/>
+      <display value="UD6vtiw8Bj"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="LdqnLM0Nfg"/>
+  </bodySite>
+  <note>
+    <authorReference>
+      <reference value="Practitioner/0NxkW-f172"/>
+      <type value="Practitioner"/>
+      <identifier>
+        <use value="temp"/>
+        <type>
+          <coding>
+            <system value="UCTjH9jqXL"/>
+            <version value="VdnCsr6Jm8"/>
+            <code value="SLuNhfeLeW"/>
+            <display value="QEfN_ynHbp"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="r8j0ugAfuo"/>
+        </type>
+        <system value="ClkTOwwUyI"/>
+        <value value="lvUEuuZL9e"/>
+        <period>
+          <start value="2021-04-12T14:34:37.707-05:00"/>
+          <end value="2021-04-12T14:34:37.707-05:00"/>
+        </period>
+      </identifier>
+      <display value="NubmfU1Hig"/>
+    </authorReference>
+    <time value="2021-04-12T14:34:37.707-05:00"/>
+    <text value="gdElcif7L1"/>
+  </note>
+</DeviceUseStatement>

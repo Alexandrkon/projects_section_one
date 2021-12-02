@@ -1,0 +1,495 @@
+# IBM FHIR Server - fhir-persistence-schema
+
+Builds and manages the multi-tenant FHIR R4 RDBMS schema for Db2 and PostgreSQL and includes Derby support for testing.
+
+This module is built into two different jar files. The default jar is included with the IBM FHIR Server web application and is used for bootstrapping Apache Derby databases (if configured). There is also an executable command line interface (cli) version of this jar that packages this module with all of its dependencies.
+
+The executable command line interface (cli) version of this module can be downloaded from the project [Releases tab](https://github.com/IBM/FHIR/releases).
+
+The schema tool protects itself when multiple instances of the tool are run concurrently. This can happen in cloud deployment environments where multiple instances of the IBM FHIR Server are deployed, with each running their own schema-update tool before starting the server process. Instances of the schema update tool first acquire a `lease` before they perform any operations on a particular schema (for example: creating a new table or altering an existing table). An instance will try to acquire a lease for 10s. If it is unable to do so, it will exit with an error message and exit code 6. If multiple instances of the tool are run concurrently, the instance blocked waiting for the lease may eventually acquire the lease after the first instance completes within the 10s window. If the first instance successfully updated the schema, the second instance will see that the schema is now up-to-date and will skip further processing for that schema. If the first instance failed to update the schema, the second instance will attempt to apply the changes again.
+
+## Getting started
+### Creating the database and user
+
+To create the Db2 database and database user, use the following commands:
+
+1. If necessary on your system, create the User
+``` shell
+groupadd -g 1002 fhir
+useradd -u 1002 -g fhir -M -d /database/config/fhirserver fhirserver
+```
+
+1. Create the Database and grant connection
+
+``` shell
+su - db2inst1 -c "db2 CREATE DB FHIRDB using codeset UTF-8 territory us PAGESIZE 32768"
+su - db2inst1 -c "db2 \"connect to fhirdb\" && db2 \"grant connect on database TO USER fhirserver\""
+```
+
+**Note 1:** When creating the user, make sure there is no group with the same name; otherwise the step *Grant privileges to data access user* below will fail with `SQLCODE=-569, SQLSTATE=56092` ("Authorization ID does not uniquely identify a user, a group or a role in the system"). If there already exists a group with the same name as the user, consider renaming the group with `groupmod -n <new-name> <old-name>`.
+
+**Note 2:** When creating the database, `PAGESIZE` is important. So *do* use the statement below and not, e.g., the environment variable `DBNAME` of the [Db2 Docker container](https://hub.docker.com/r/ibmcom/db2) to generate the database; otherwise the step *Deploy new schema* below will fail with `SQLCODE=-286, SQLSTATE=42727`.  
+
+To create the PostgreSQL database and database user, use the following commands:
+
+``` shell
+psql postgres
+>postgres=# create database fhirdb;
+>postgres=# create user fhirserver with password 'change-password';
+```
+
+### Printing the schema
+
+To print the schema DDL for review, execute `com.ibm.fhir.schema.app.SchemaPrinter`:
+
+``` shell
+java -cp ./fhir-persistence-schema-${VERSION}-cli.jar com.ibm.fhir.schema.app.SchemaPrinter [--to-file]
+```
+
+Note: Replace `${VERSION}` with the version of the jar you're using or use the wildcard `*` to match any version.
+
+With `--to-file` it outputs to `./schema.sql`, `./grants.sql`, and `./stored-procedures.sql`; otherwise to System.out.
+
+### Connection properties
+
+The `fhir-persistence-schema` tool uses a properties file for database connection information.
+
+|Property|Description|
+|--------|-----------|
+|db.host | The database server hostname|
+|db.port | The database server port|
+|db.database | The name of the database|
+|user | A username with connect and admin permissions on the target database|
+|password | The user password for connecting to the database|
+|sslConnection | true or anything else, true triggers JDBC to use ssl, an example --prop sslConnection=true |
+
+A sample properties file can be found at https://github.com/IBM/FHIR/blob/master/fhir-persistence-schema/db2.properties
+
+Alternatively, properties may be passed via the command line interface `--prop` flag (`--prop <propname>=<propvalue>`). The flag can be repeated for setting multiple properties.
+
+## Execute the fhir-persistence-schema command line interface (CLI)
+
+To deploy and manage the schema on a target database, the `fhir-persistence-schema` project includes a Main class that can parallelize the schema updates.
+
+``` shell
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar [OPTIONS]
+```
+
+Note: Replace `${VERSION}` with the version of the jar you're using or use the wildcard `*` to match any version.
+
+The following sections include common values for `OPTIONS`.
+
+### Create new schema
+For Db2:
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--create-schemas
+```
+
+For PostgreSQL:
+
+```
+--prop-file postgresql.properties
+--schema-name fhirdata
+--create-schemas
+--db-type postgresql
+```
+
+### Deploy new schema or update an existing schema
+For Db2:
+
+The FHIRSERVER user is the database user used by the IBM FHIR Server to connect
+to the database. This user is granted the minimal set of privileges required
+for the IBM FHIR Server to operate. The FHIRADMIN user should only be used
+for schema updates, not for IBM FHIR Server access.
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--update-schema
+--grant-to FHIRSERVER
+```
+
+If the --grant-to is provided, the grants will be processed after the schema
+objects have been created for a particular schema. No grant changes will be
+applied if the schema is already at the latest version according to the
+`{schema}.WHOLE_SCHEMA_VERSION` table. If grants need to be applied, then
+run the schema tool using only the --grant-to option without --update-schema.
+
+For PostgreSQL:
+
+The FHIRSERVER user is the database user used by the IBM FHIR Server to connect
+to the database. This user is granted the minimal set of privileges required
+for the IBM FHIR Server to operate. The FHIRADMIN user should only be used
+for schema updates, not for IBM FHIR Server access.
+
+```
+--prop-file postgresql.properties
+--schema-name FHIRDATA
+--update-schema
+--grant-to FHIRSERVER
+--db-type postgresql
+```
+If the --grant-to is provided, the grants will be processed after the schema
+objects have been created for a particular schema. No grant changes will be
+applied if the schema is already at the latest version according to the
+`{schema}.WHOLE_SCHEMA_VERSION` table. If grants need to be applied, then
+run the schema tool using only the --grant-to option without --update-schema.
+
+When updating the postgres schema, the autovacuum settings are configured.
+
+### Grant privileges to another data access user
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--grant-to FHIRSERVER
+```
+
+### Add a new tenant (e.g. default)  (Db2 only)
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--allocate-tenant default
+```
+
+**Note:** Don't forget to copy the tenant-key secret generated by `--allocate-tenant`, you will find it in one of the last lines of the log output (`com.ibm.fhir.schema.app.Main Allocated tenant: default [key=<this-is-the-relevant-text>] with Id = 1`). This key must be added to the datasource configuration to authorize the FHIR server to access this tenant.
+
+Use `--tenant-key-file tenant.key.file` to direct the action to read the tenant-key from file.  If the file exists the tenant key (up to 44 characters) is read from the file.  If the file does not exist, the generated tenantKey is written out to the file.
+
+Note: for tenant names other than `default`, the server must determine the tenant id to use for each request.
+By default, we get the tenant id from the `X-FHIR-TENANT-ID` header, but to trust this value requires a well-planned approach to security.
+Once the server has determined the tenant id for a given request, it uses this to look up the tenantKey and the two are
+used in conjunction to create or retrieve data for this tenant.
+For more information on multi-tenancy, see section [4.9 Multi-tenancy of the IBM FHIR Server Users Guide](https://ibm.github.io/FHIR/guides/FHIRServerUsersGuide#49-multi-tenancy).
+
+
+### Refresh Tenant Following Schema Update (Db2 only)
+
+After a schema update you must run the refresh-tenants command to ensure that any new tables added by the update have the correct partitions. The refresh-tenants process will iterate over each tenant and allocate new partitions as needed. This step is idempotent, so you can run it more than once if required.
+
+
+```
+    java -jar schema/fhir-persistence-schema-*-cli.jar \
+      --prop-file db2.properties --refresh-tenants
+```
+
+If processing completes successfully, the program will report `SCHEMA CHANGE: OK`. If an error occurs, run the step again after correcting the issue.
+
+
+### Configure tenant-key (example)  (Db2 only)
+
+Edit `wlp/usr/servers/fhir-server/config/default/fhir-server-config.json` and add the tenant-key captured from the add-tenant step above:
+
+```
+                "default": {
+                    "tenantKey": "<the-base64-tenant-key>",
+                    "type": "db2",
+                    "connectionProperties": {
+                        "serverName": "<db2-host-name>",
+                        "portNumber": 50001,
+                        "databaseName": "BLUDB",
+                        "apiKey": "<your-db2-api-key>",
+                        "securityMechanism": 15,
+                        "pluginName": "IBMIAMauth",
+                        "currentSchema": "FHIRDATA",
+                        "driverType": 4,
+                        "sslConnection": true,
+                        "sslTrustStoreLocation": "resources/security/dbTruststore.jks",
+                        "sslTrustStorePassword": "<your-ssl-truststore-password>"
+                    }
+                }
+```
+
+
+### Test a tenant (Db2 only)
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--test-tenant default
+--tenant-key "<the-base64-tenant-key>"
+```
+
+Use `--tenant-key-file tenant.key` to read the tenant-key to a file. You do not need `--tenant-key` if you use the file.
+
+### Add a Key to Existing Tenant (Db2 only)
+To add a tenant key for an existing tenant, replace FHIRDATA with your client schema, and change default to your tenant's name. 
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--add-tenant-key default
+```
+
+**Example Output**
+```
+2020-03-24 13:54:36.387 00000001    INFO .common.JdbcConnectionProvider Opening connection to database: jdbc:db2://localhost:50000/FHIRDB
+2020-03-24 13:54:37.012 00000001    INFO   com.ibm.fhir.schema.app.Main New tenant key: TNT1 [key=LogFbM06+PLS1cur/NOTREALg=]
+2020-03-24 13:54:37.014 00000001    INFO   com.ibm.fhir.schema.app.Main Processing took:   0.637 s
+2020-03-24 13:54:37.015 00000001    INFO   com.ibm.fhir.schema.app.Main SCHEMA CHANGE: OK
+```
+
+Note, you may want to add a tenant key when a key is lost or needs to be changed.
+
+Use `--tenant-key-file tenant.key.file` to direct the action to read the tenant-key from file.  If the file exists the tenant key (up to 44 characters is read from the file.  If the file does not exist, the generated tenantKey is written out to the file.
+
+
+### Remove all tenant keys from an Existing Tenant (Db2 only)
+To remove all tenant keys for an existing tenant, replace FHIRDATA with your client schema, and change default to your tenant's name. 
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--db-type db2
+--revoke-all-tenant-keys default
+```
+
+**Example Output**
+```
+2021-06-07 15:30:41.782 00000001    INFO .common.JdbcConnectionProvider Opening connection to database: jdbc:db2://demodb2:50000/fhirdb
+2021-06-07 15:30:42.405 00000001    INFO   com.ibm.fhir.schema.app.Main Tenant Key revoked for 'default' total removed=[1]
+2021-06-07 15:30:42.419 00000001    INFO   com.ibm.fhir.schema.app.Main Processing took:   0.699 s
+2021-06-07 15:30:42.420 00000001    INFO   com.ibm.fhir.schema.app.Main SCHEMA CHANGE: OK
+```
+
+### Remove a tenant key key from an Existing Tenant (Db2 only)
+To remove a tenant key for an existing tenant, replace FHIRDATA with your client schema, and change default to your tenant's name. 
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--db-type db2
+--revoke-tenant-key default
+--tenant-key rZ59TLyEpjU+FAKEtgVk8J44J0=
+```
+
+**Example Output**
+```
+2021-06-07 15:30:41.782 00000001    INFO .common.JdbcConnectionProvider Opening connection to database: jdbc:db2://demodb2:50000/fhirdb
+2021-06-07 15:30:42.405 00000001    INFO   com.ibm.fhir.schema.app.Main Tenant Key revoked for 'default' total removed=[1]
+2021-06-07 15:30:42.419 00000001    INFO   com.ibm.fhir.schema.app.Main Processing took:   0.699 s
+2021-06-07 15:30:42.420 00000001    INFO   com.ibm.fhir.schema.app.Main SCHEMA CHANGE: OK
+```
+
+Use `--tenant-key-file tenant.key.file` to direct the action to read the tenant-key from file.
+
+### Update the stored procedures and functions for FHIRDATA (and not FHIR_ADMIN) (Db2 and PostgreSQL)
+
+For Db2:
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--update-proc
+```
+
+For PostgreSQL:
+
+```
+--prop-file postgresql.properties
+--schema-name fhirdata
+--update-proc
+--db-type postgresql
+```
+
+### Drop the FHIR schema specified by `schema-name` (e.g. FHIRDATA)
+For Db2:
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--drop-schema-fhir
+--confirm-drop
+```
+
+For PostgreSQL:
+
+```
+--prop-file postgresql.properties
+--schema-name FHIRDATA
+--drop-schema-fhir
+--confirm-drop
+--db-type postgresql
+```
+
+### Drop all tables created by `--create-schemas` (including the FHIR-ADMIN schema)
+For Db2:
+
+```
+--prop-file db2.properties
+--schema-name FHIRDATA
+--drop-schema-fhir
+--drop-schema-batch
+--drop-schema-oauth
+--drop-admin
+--confirm-drop
+```
+
+For PostgreSQL:
+
+```
+--prop-file postgresql.properties
+--schema-name FHIRDATA
+--drop-schema-fhir
+--drop-schema-batch
+--drop-schema-oauth
+--drop-admin
+--db-type postgresql
+```
+
+Alternatively, you can drop specific schemas with `--drop-schema-batch schema-name-to-drop` and
+`--drop-schema-oauth schema-name-to-drop`
+
+## Alternative: Setting up a shared Db2 with separate schemas for each tenant
+
+For those using multiple schemas for each customer, for instance, customer 2 needs to be separately configured with the database and schema. 
+
+### Create the additional schema
+
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \ 
+--prop-file db2.properties
+--create-schemas
+--create-schema-batch FHIR_JBATCH_2ND
+--create-schema-oauth FHIR_OAUTH_2ND
+--create-schema-fhir FHIRDATA_2ND
+```
+
+### Deploy the additional schema
+
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \ 
+--prop-file db2.properties
+--schema-name FHIRDATA
+--update-schema-batch FHIR_JBATCH_2ND
+--update-schema-oauth FHIR_OAUTH_2ND
+--update-schema-fhir FHIRDATA_2ND
+```
+
+### Grant privileges to data access user
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \ 
+--prop-file db2.properties
+--grant-to FHIRSERVER
+--target BATCH FHIR_JBATCH_2ND
+```
+
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \ 
+--prop-file db2.properties
+--grant-to FHIRSERVER
+--target OAUTH FHIR_OAUTH_2ND
+```
+
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \ 
+--prop-file db2.properties
+--grant-to FHIRSERVER
+--target DATA FHIRDATA_2ND
+```
+
+## Adjust the Vacuum Settings for PostgreSQL Tables only
+Since 4.9.0, the IBM FHIR Server has implemented support for modifying the [autovacuum](https://www.postgresql.org/docs/12/runtime-config-autovacuum.html). Per [4.1.2. Tuning Auto-vacuum](https://ibm.github.io/FHIR/guides/FHIRPerformanceGuide/#412-tuning-auto-vacuum) the schema tool modifies `autovacuum_vacuum_cost_limit`, `autovacuum_vacuum_scale_factor` and `autovacuum_vacuum_threshold`.
+
+The autovacuum_vacuum_scale_factor is not automatically configured, and not recommended on Databases for Postgres on IBM Cloud. The system configuration overrides the setting.
+
+### Specific Tables
+To update a specific tables settings, you can run with  `--vacuum-table-name`.
+
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \
+--db-type postgresql --prop db.host=localhost --prop db.port=5432 \
+--prop db.database=fhirdb --schema-name fhirdata \
+--prop user=fhiradmin --prop password=passw0rd \
+--update-vacuum --vacuum-cost-limit 2000 --vacuum-threshold 1000 \
+--vacuum-scale-factor 0.01 --vacuum-table-name LOGICAL_RESOURCES
+```
+
+### All Tables in a Schema
+To update all tables in a schema, you can run without the table parameter. If you omit any value, the  defaults are picked as described in the Performance guide.
+
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \
+--db-type postgresql --prop db.host=localhost --prop db.port=5432 \
+--prop db.database=fhirdb --schema-name fhirdata \
+--prop user=fhiradmin --prop password=passw0rd \
+--update-vacuum --vacuum-cost-limit 2000 --vacuum-threshold 1000 \
+--vacuum-scale-factor 0.01
+```
+
+## Advanced SSL Configuration with Postgres
+
+Create a properties file like the following:
+
+```
+db.host=<url>
+db.port=30048
+db.database=fhirdb
+user=fhirserver
+password=<password>
+ssl=true
+sslmode=verify-full
+sslrootcert=./fhir-postgresql.cert
+```
+You can specify any connection property in the property file, such as `logger=TRACE` to help with debugging.
+
+Run the Update Schema with 
+```
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar \
+--prop-file /Users/paulbastide/git/wffh/FHIR/fhir-persistence-schema/postgresql.properties  \
+--schema-name FHIRDATA \
+--update-schema \
+--db-type postgresql
+```
+
+If you want to log the connection, you can add `loggerLevel=TRACE` to the properties file.
+
+Note, this was run with AdoptOpenJDK. 
+
+## Advanced Client Execution Argument
+The following are advanced execution arguments
+
+|Property|Description|Example|
+|--------|-----------|-----------|
+|`--pool-size NUM` | The number of connections used to connect to the database|`--pool-size 20`|
+|`--skip-allocate-if-tenant-exists` | whether or not to skip over allocating the tenant where this tenantName/tenantKey combination already exists |`--skip-allocate-if-tenant-exists`|
+
+## Alternative: Manually apply the schema
+
+To manually apply the DDL to a Db2 instance:
+
+1 - Print the schema to files by executing the SchemaPrinter:
+
+*Linux/Mac*  
+
+```
+VERSION=4.0.1
+java -jar ./fhir-persistence-schema-${VERSION}-cli.jar --to-file
+```
+
+*Windows*
+
+```
+set VERSION=4.0.1
+java -jar ./fhir-persistence-schema-%VERSION%-cli.jar --to-file
+```
+
+Note: the jar file is stored locally in `fhir-persistence-schema/target` or in the Artifactory repository for this project.
+
+2 - Connect to your instance and execute each of the following:
+
+    - schema.sql:  `db2 -tvf schema.sql`
+    - grants.sql:  `db2 -tvf grants.sql`
+    - stored-procedures.sql:  `db2 -td@ -vf stored-procedures.sql`
+
+
+# V0021 - Drops the DOMAINRESOURCE and RESOURCE tables
+
+If there is data in the DOMAINRESOURCE and RESOURCE table groups, which is unexpected, the administrator may run the tool with `--force-unused-table-removal` to force the removal of the unused tables.
+
+
+FHIR® is the registered trademark of HL7 and is used with the permission of HL7.

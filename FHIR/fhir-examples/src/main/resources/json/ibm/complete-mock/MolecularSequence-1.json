@@ -1,0 +1,402 @@
+{
+    "resourceType": "MolecularSequence",
+    "meta": {
+        "versionId": "YZl4TnUMMg",
+        "lastUpdated": "2021-04-12T14:34:27.864-05:00",
+        "source": "CZ6MxMDbVf",
+        "profile": [
+            "j1vm6hTbvA"
+        ],
+        "security": [
+            {
+                "system": "o1Oy2yqs8P",
+                "version": "OIDWkcDkb6",
+                "code": "9FnBfcIpgy",
+                "display": "v2fXgeEhW7",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "8o_mMJhA_0",
+                "version": "H1swaI9iie",
+                "code": "GOmRIyHNCB",
+                "display": "qPkt5jAGsy",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "GphG6Z7tjg",
+    "language": "en-US",
+    "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "identifier": [
+        {
+            "use": "old",
+            "type": {
+                "coding": [
+                    {
+                        "system": "wA7szDXlyT",
+                        "version": "SdpY6dpQe6",
+                        "code": "UHmmpzLzOX",
+                        "display": "OcOV3gHvMW",
+                        "userSelected": true
+                    }
+                ],
+                "text": "BgPGcE8hHH"
+            },
+            "system": "SQo03UZtpq",
+            "value": "xfmXYZzxkw",
+            "period": {
+                "start": "2021-04-12T14:34:27.845-05:00",
+                "end": "2021-04-12T14:34:27.845-05:00"
+            }
+        }
+    ],
+    "type": "dna",
+    "coordinateSystem": 246037910,
+    "patient": {
+        "reference": "Patient/BkTJFnqSP9",
+        "type": "Patient",
+        "identifier": {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "BeFnicQLOt",
+                        "version": "BQurwa0ZRE",
+                        "code": "GCUpyEbtDe",
+                        "display": "RDXdP4hf8r",
+                        "userSelected": true
+                    }
+                ],
+                "text": "dCN4rTb5Ez"
+            },
+            "system": "rzTgQ9xsoy",
+            "value": "pPBQjC55iR",
+            "period": {
+                "start": "2021-04-12T14:34:27.843-05:00",
+                "end": "2021-04-12T14:34:27.844-05:00"
+            }
+        },
+        "display": "7zvIPBzqUU"
+    },
+    "specimen": {
+        "reference": "Specimen/IsiKBkv9kN",
+        "type": "Specimen",
+        "identifier": {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "e8wPSXbvEF",
+                        "version": "MpOktbosgs",
+                        "code": "pEfcvZZC2L",
+                        "display": "bAsr7DUnl3",
+                        "userSelected": true
+                    }
+                ],
+                "text": "SjyyMfZOts"
+            },
+            "system": "qb4o8c6fmU",
+            "value": "6sN8wMJAts",
+            "period": {
+                "start": "2021-04-12T14:34:27.848-05:00",
+                "end": "2021-04-12T14:34:27.848-05:00"
+            }
+        },
+        "display": "ZoDGXVwOpO"
+    },
+    "device": {
+        "reference": "Device/5nTDvoZWsd",
+        "type": "Device",
+        "identifier": {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "4VffqMYGcr",
+                        "version": "m_I0XcwHv1",
+                        "code": "x8KUQunb27",
+                        "display": "EBR5wWw84x",
+                        "userSelected": true
+                    }
+                ],
+                "text": "4uKXn01kKn"
+            },
+            "system": "KJ5iLpxNUh",
+            "value": "lWh4rlXZr5",
+            "period": {
+                "start": "2021-04-12T14:34:27.846-05:00",
+                "end": "2021-04-12T14:34:27.846-05:00"
+            }
+        },
+        "display": "fMbrKOeHqF"
+    },
+    "performer": {
+        "reference": "Organization/QVS8G1FHLn",
+        "type": "Organization",
+        "identifier": {
+            "use": "temp",
+            "type": {
+                "coding": [
+                    {
+                        "system": "HyulZaLqmQ",
+                        "version": "pRut4gxvZC",
+                        "code": "48pbz14ttv",
+                        "display": "ksQkOcmXU0",
+                        "userSelected": true
+                    }
+                ],
+                "text": "h8vUnJdvHP"
+            },
+            "system": "_04B4rkHPa",
+            "value": "MGVJXEfuXZ",
+            "period": {
+                "start": "2021-04-12T14:34:27.849-05:00",
+                "end": "2021-04-12T14:34:27.849-05:00"
+            }
+        },
+        "display": "5oY5v2ygJu"
+    },
+    "quantity": {
+        "value": 159742363248,
+        "comparator": ">=",
+        "unit": "ft6ZCnIH36",
+        "system": "MSAIM7n9p5",
+        "code": "x4dsApKiu9"
+    },
+    "referenceSeq": {
+        "chromosome": {
+            "coding": [
+                {
+                    "system": "EN7uT0_bnx",
+                    "version": "SQ9n26_h1z",
+                    "code": "w9PqGYcIV5",
+                    "display": "Vx4KxXdo0e",
+                    "userSelected": true
+                }
+            ],
+            "text": "x83Ft9oF2n"
+        },
+        "genomeBuild": "Qbl5QUW26g",
+        "orientation": "antisense",
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "system": "y9EKDUjcy4",
+                    "version": "lTJJknWSS1",
+                    "code": "E6nFayRMm3",
+                    "display": "PojNpxPHAl",
+                    "userSelected": true
+                }
+            ],
+            "text": "Y_m6TILIUJ"
+        },
+        "referenceSeqPointer": {
+            "reference": "MolecularSequence/VMEwhCg8ep",
+            "type": "MolecularSequence",
+            "identifier": {
+                "use": "secondary",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "D_vqB9YqQN",
+                            "version": "8eNm3sEKCN",
+                            "code": "nyhc8e9s06",
+                            "display": "nGQ6dR1ePw",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "x6LBNnlaTw"
+                },
+                "system": "NCHRYuIFdg",
+                "value": "AVw4mx2VVN",
+                "period": {
+                    "start": "2021-04-12T14:34:27.87-05:00",
+                    "end": "2021-04-12T14:34:27.871-05:00"
+                }
+            },
+            "display": "okPYbaPifn"
+        },
+        "referenceSeqString": "3ebXtGV1Hi",
+        "strand": "crick",
+        "windowStart": 986359966,
+        "windowEnd": 2066344014
+    },
+    "variant": [
+        {
+            "start": 7811600,
+            "end": 1586039084,
+            "observedAllele": "WdFqiGb66V",
+            "referenceAllele": "OLLYUIcCgL",
+            "cigar": "tn4ieNi66n",
+            "variantPointer": {
+                "reference": "Observation/fcI9asCZvz",
+                "type": "Observation",
+                "identifier": {
+                    "use": "temp",
+                    "type": {
+                        "coding": [
+                            {
+                                "system": "DwKVrDYKAC",
+                                "version": "LXQfwNlKFO",
+                                "code": "u78SrpGEjl",
+                                "display": "mmr227nVoq",
+                                "userSelected": true
+                            }
+                        ],
+                        "text": "gjEZTxtMJw"
+                    },
+                    "system": "megt5Wj9Df",
+                    "value": "UUDkXBgZlh",
+                    "period": {
+                        "start": "2021-04-12T14:34:27.863-05:00",
+                        "end": "2021-04-12T14:34:27.863-05:00"
+                    }
+                },
+                "display": "5_x4MA9oJj"
+            }
+        }
+    ],
+    "observedSeq": "GlJi3q7a9f",
+    "quality": [
+        {
+            "type": "unknown",
+            "standardSequence": {
+                "coding": [
+                    {
+                        "system": "22vr_c8SQh",
+                        "version": "HASpY8dvY1",
+                        "code": "asmFfuhnuc",
+                        "display": "WfidOWD3_n",
+                        "userSelected": true
+                    }
+                ],
+                "text": "GtxhWOd2dG"
+            },
+            "start": 881693811,
+            "end": 491424427,
+            "score": {
+                "value": 401345441083,
+                "comparator": "<",
+                "unit": "fIB2C_9uiE",
+                "system": "IJgOP7htOo",
+                "code": "jNt2xRIrfj"
+            },
+            "method": {
+                "coding": [
+                    {
+                        "system": "8JSeNjV3su",
+                        "version": "zlfI0UKOh1",
+                        "code": "aV54DfN4aq",
+                        "display": "KaJYjRuC4T",
+                        "userSelected": true
+                    }
+                ],
+                "text": "YJQ3QIuK74"
+            },
+            "truthTP": 477652930929,
+            "queryTP": 120917093401,
+            "truthFN": 152105916262,
+            "queryFP": 223594303567,
+            "gtFP": 246309080411,
+            "precision": 82216301858,
+            "recall": 77717703030,
+            "fScore": 53288053326,
+            "roc": {
+                "score": [
+                    278979838
+                ],
+                "numTP": [
+                    1948848829
+                ],
+                "numFP": [
+                    230638815
+                ],
+                "numFN": [
+                    607884940
+                ],
+                "precision": [
+                    122178769764
+                ],
+                "sensitivity": [
+                    23477968240
+                ],
+                "fMeasure": [
+                    541204052535
+                ]
+            }
+        }
+    ],
+    "readCoverage": 1278076734,
+    "repository": [
+        {
+            "type": "openapi",
+            "url": "ADmlfV7xuo",
+            "name": "BTuL7tKvEY",
+            "datasetId": "ib1GIBG7EO",
+            "variantsetId": "_GbRGS6oQh",
+            "readsetId": "jKpGwdx5V2"
+        }
+    ],
+    "pointer": [
+        {
+            "reference": "MolecularSequence/sHYKytDXw6",
+            "type": "MolecularSequence",
+            "identifier": {
+                "use": "official",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "NC2ned9xAt",
+                            "version": "hWHyWLR1VU",
+                            "code": "sbbYgJr0Ya",
+                            "display": "T7zyLOmZyH",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "WuwdOdKqdp"
+                },
+                "system": "FtpqpChj1g",
+                "value": "c3YH89i3Jq",
+                "period": {
+                    "start": "2021-04-12T14:34:27.865-05:00",
+                    "end": "2021-04-12T14:34:27.865-05:00"
+                }
+            },
+            "display": "aHUHvh3Q5D"
+        }
+    ],
+    "structureVariant": [
+        {
+            "variantType": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "version": "2.67",
+                        "code": "LA9658-1",
+                        "display": "LA9658-1",
+                        "userSelected": false
+                    }
+                ],
+                "text": "LA9658-1"
+            },
+            "exact": true,
+            "length": 866883119,
+            "outer": {
+                "start": 1717151092,
+                "end": 608570288
+            },
+            "inner": {
+                "start": 1080576111,
+                "end": 1426085719
+            }
+        }
+    ]
+}

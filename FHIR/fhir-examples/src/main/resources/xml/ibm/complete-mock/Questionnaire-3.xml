@@ -1,0 +1,141 @@
+<Questionnaire xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="BpV1xlR3xB"/>
+    <lastUpdated value="2021-04-12T14:34:26.845-05:00"/>
+    <source value="akdhCDVskB"/>
+    <profile value="edvWkrl0Mn"/>
+    <security>
+      <system value="dOaMWfJyOX"/>
+      <version value="c3lr6URp6T"/>
+      <code value="8m8cnP9YxU"/>
+      <display value="dgB4lvClwx"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="b9CUAjyYHC"/>
+      <version value="KWplrRoM6Z"/>
+      <code value="oJ4zHQ1QMU"/>
+      <display value="ODmX4CZy5d"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="rJcTXx8KCN"/>
+  <language value="en-US"/>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="yn4T0ypuoU"/>
+  <identifier>
+    <use value="old"/>
+    <type>
+      <coding>
+        <system value="fmLnQXMczN"/>
+        <version value="bGtlirOWqQ"/>
+        <code value="VVuS_m8LjU"/>
+        <display value="vLsfyX32PX"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="pG4RwKrquE"/>
+    </type>
+    <system value="BZI7SFBWS1"/>
+    <value value="4vhvevK_nh"/>
+    <period>
+      <start value="2021-04-12T14:34:26.842-05:00"/>
+      <end value="2021-04-12T14:34:26.842-05:00"/>
+    </period>
+  </identifier>
+  <version value="6pZIPsTrd3"/>
+  <name value="CbkX0ZS5HB"/>
+  <title value="Vf7cZGJikq"/>
+  <derivedFrom value="nziII7qL2P"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <subjectType value="MessageHeader"/>
+  <date value="2021-04-12T14:34:26.845-05:00"/>
+  <publisher value="BIpH28rGxO"/>
+  <contact>
+    <name value="Xp0BjIAnHl"/>
+    <telecom>
+      <system value="email"/>
+      <value value="hmcm8BHa_s"/>
+      <use value="temp"/>
+      <rank value="1129530668"/>
+      <period>
+        <start value="2021-04-12T14:34:26.843-05:00"/>
+        <end value="2021-04-12T14:34:26.843-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <description value="n8AI0oqzAJ"/>
+  <useContext>
+    <code>
+      <system value="mLPmocjfAL"/>
+      <version value="vh30sTYquP"/>
+      <code value="SwLO8SpqB6"/>
+      <display value="r9lmoyIpQD"/>
+      <userSelected value="true"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="qyzI4tFygO"/>
+        <version value="sIJnLUtcM3"/>
+        <code value="__SYSQO_Ck"/>
+        <display value="NtEuKL86yg"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="roFCh6u9ec"/>
+    </valueCodeableConcept>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="BiWE455ycD"/>
+      <version value="dxT49zJz2r"/>
+      <code value="gDnqX16H6Y"/>
+      <display value="8G0NmJtHlQ"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="vZtPeYPUl7"/>
+  </jurisdiction>
+  <purpose value="IqSiP_w6Ft"/>
+  <copyright value="MUtjHGBbdb"/>
+  <approvalDate value="2021-04-12"/>
+  <lastReviewDate value="2021-04-12"/>
+  <effectivePeriod>
+    <start value="2021-04-12T14:34:26.841-05:00"/>
+    <end value="2021-04-12T14:34:26.841-05:00"/>
+  </effectivePeriod>
+  <code>
+    <system value="nODqWC3zdl"/>
+    <version value="g738VpGZtZ"/>
+    <code value="TLmisx4EJK"/>
+    <display value="DT_bGW_1ST"/>
+    <userSelected value="true"/>
+  </code>
+  <item>
+    <linkId value="dN92OGnQKm"/>
+    <definition value="aobxnpdGmv"/>
+    <code>
+      <system value="EvTXiRXoKX"/>
+      <version value="so8AFFZotP"/>
+      <code value="NILbT63lB8"/>
+      <display value="wDOP3FhPp1"/>
+      <userSelected value="true"/>
+    </code>
+    <prefix value="caS7yhxKfX"/>
+    <text value="wovvbm2AW9"/>
+    <type value="quantity"/>
+    <enableWhen>
+      <question value="_HsIJLOWXL"/>
+      <operator value="&gt;"/>
+      <answerBoolean value="true"/>
+    </enableWhen>
+    <enableBehavior value="all"/>
+    <required value="true"/>
+    <repeats value="true"/>
+    <readOnly value="true"/>
+  </item>
+</Questionnaire>

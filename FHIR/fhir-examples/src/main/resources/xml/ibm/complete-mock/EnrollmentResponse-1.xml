@@ -1,0 +1,126 @@
+<EnrollmentResponse xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="4ZXIhYoi0p"/>
+    <lastUpdated value="2021-04-12T14:34:34.27-05:00"/>
+    <source value="U90eZDKZgh"/>
+    <profile value="RzrM1uhkeA"/>
+    <security>
+      <system value="x6ijM7Q0dt"/>
+      <version value="5O2pD7byUx"/>
+      <code value="HED2g_czgH"/>
+      <display value="vJvfsXWfX9"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="iPyIUsGYBq"/>
+      <version value="bTUMfO_FAh"/>
+      <code value="EUPGK63Vzi"/>
+      <display value="RVKkSMnq3e"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="aHODqUFkAp"/>
+  <language value="en-US"/>
+  <text>
+    <status value="extensions"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="dsJgt7oYjj"/>
+        <version value="k2yHp0JqQF"/>
+        <code value="t4yHCTVTxR"/>
+        <display value="wuye6X6hvq"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="Q9KT9x5Zor"/>
+    </type>
+    <system value="TBFKkLfSxD"/>
+    <value value="AECgAuUKXy"/>
+    <period>
+      <start value="2021-04-12T14:34:34.264-05:00"/>
+      <end value="2021-04-12T14:34:34.264-05:00"/>
+    </period>
+  </identifier>
+  <status value="entered-in-error"/>
+  <request>
+    <reference value="EnrollmentRequest/CYupvAA0Kn"/>
+    <type value="EnrollmentRequest"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="YDUKu31muV"/>
+          <version value="z4h7VI4Mnl"/>
+          <code value="xLDfgtz4SR"/>
+          <display value="5Xp49_E_Hj"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="IV85x79BiC"/>
+      </type>
+      <system value="bXso4KvYtm"/>
+      <value value="5hMcwZVfjv"/>
+      <period>
+        <start value="2021-04-12T14:34:34.266-05:00"/>
+        <end value="2021-04-12T14:34:34.267-05:00"/>
+      </period>
+    </identifier>
+    <display value="CvKlsxHI_Z"/>
+  </request>
+  <outcome value="queued"/>
+  <disposition value="u2hNbhu_lx"/>
+  <created value="2021-04-12T14:34:34.264-05:00"/>
+  <organization>
+    <reference value="Organization/STDXe9H0qL"/>
+    <type value="Organization"/>
+    <identifier>
+      <use value="official"/>
+      <type>
+        <coding>
+          <system value="LOIFx0Zer4"/>
+          <version value="NcTm5I4j6L"/>
+          <code value="nVyZivfmbj"/>
+          <display value="qg4tO_yAc_"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="Mjtzp7bgjC"/>
+      </type>
+      <system value="TyraGsgX8v"/>
+      <value value="ugU93EBl52"/>
+      <period>
+        <start value="2021-04-12T14:34:34.265-05:00"/>
+        <end value="2021-04-12T14:34:34.265-05:00"/>
+      </period>
+    </identifier>
+    <display value="isvmSWK3Hw"/>
+  </organization>
+  <requestProvider>
+    <reference value="Practitioner/zraFIXDNtp"/>
+    <type value="Practitioner"/>
+    <identifier>
+      <use value="old"/>
+      <type>
+        <coding>
+          <system value="2W4Xh_2smK"/>
+          <version value="SGsYjJ2ekG"/>
+          <code value="4LhCERX696"/>
+          <display value="uiYFor0RLU"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="9TUH94ZDEB"/>
+      </type>
+      <system value="GeTlipoq9f"/>
+      <value value="1EHJ7rUq46"/>
+      <period>
+        <start value="2021-04-12T14:34:34.267-05:00"/>
+        <end value="2021-04-12T14:34:34.268-05:00"/>
+      </period>
+    </identifier>
+    <display value="juYMKvAwTo"/>
+  </requestProvider>
+</EnrollmentResponse>

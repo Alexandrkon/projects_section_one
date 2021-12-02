@@ -1,0 +1,185 @@
+<VisionPrescription xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="5h2wUBQ0Fk"/>
+    <lastUpdated value="2021-04-12T14:34:28.1-05:00"/>
+    <source value="wiJE8L2i2H"/>
+    <profile value="3wA9z5I0de"/>
+    <security>
+      <system value="v93V5O8aHi"/>
+      <version value="4tjEVdHNRW"/>
+      <code value="ADBzqqqy7t"/>
+      <display value="qpAUKKHH7_"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="o8odcUhXI3"/>
+      <version value="XD7o3ar5UA"/>
+      <code value="Us9xEyiJDx"/>
+      <display value="IHY_UmkY3j"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="zwqrDOntq1"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="old"/>
+    <type>
+      <coding>
+        <system value="UQcNx9SowI"/>
+        <version value="wxg5BN5s0V"/>
+        <code value="MXNH7ggEuU"/>
+        <display value="EkKY5e8ddZ"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="yDUU_f9ehW"/>
+    </type>
+    <system value="cRIkByNFrr"/>
+    <value value="jKpeT6b5h9"/>
+    <period>
+      <start value="2021-04-12T14:34:28.098-05:00"/>
+      <end value="2021-04-12T14:34:28.098-05:00"/>
+    </period>
+  </identifier>
+  <status value="entered-in-error"/>
+  <created value="2021-04-12T14:34:28.096-05:00"/>
+  <patient>
+    <reference value="Patient/Wtj6F634G7"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="YhiL7s7kkf"/>
+          <version value="i9uGGKfmcr"/>
+          <code value="Ejnjv3tlLM"/>
+          <display value="1IxZlDaNc7"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="02Ip8dcKT4"/>
+      </type>
+      <system value="lvqeYxCc5L"/>
+      <value value="DvXH0_Cekp"/>
+      <period>
+        <start value="2021-04-12T14:34:28.097-05:00"/>
+        <end value="2021-04-12T14:34:28.097-05:00"/>
+      </period>
+    </identifier>
+    <display value="NMnsh5PVW8"/>
+  </patient>
+  <encounter>
+    <reference value="Encounter/k1ROf5ViGI"/>
+    <type value="Encounter"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="IQ8rUGyluT"/>
+          <version value="9TDd5LiqQH"/>
+          <code value="VXGpCiBBA4"/>
+          <display value="GZF_B1eWid"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="pzvTsAK2lw"/>
+      </type>
+      <system value="HddMiZiSXc"/>
+      <value value="kaIbfQtNkt"/>
+      <period>
+        <start value="2021-04-12T14:34:28.099-05:00"/>
+        <end value="2021-04-12T14:34:28.099-05:00"/>
+      </period>
+    </identifier>
+    <display value="d7SrSe1eXI"/>
+  </encounter>
+  <dateWritten value="2021-04-12T14:34:28.101-05:00"/>
+  <prescriber>
+    <reference value="Practitioner/w4rNuNcMS2"/>
+    <type value="Practitioner"/>
+    <identifier>
+      <use value="old"/>
+      <type>
+        <coding>
+          <system value="g5fZCbdXje"/>
+          <version value="1HthwBrIML"/>
+          <code value="tZ9i6vhsS4"/>
+          <display value="JghneQAVC7"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="R1SgSacoet"/>
+      </type>
+      <system value="MbWXXofvod"/>
+      <value value="p1EjhReuVP"/>
+      <period>
+        <start value="2021-04-12T14:34:28.101-05:00"/>
+        <end value="2021-04-12T14:34:28.101-05:00"/>
+      </period>
+    </identifier>
+    <display value="HwV3PmHBkb"/>
+  </prescriber>
+  <lensSpecification>
+    <product>
+      <coding>
+        <system value="l9dQrdJYA1"/>
+        <version value="WVLvxSF3p2"/>
+        <code value="TcoHyJ2Pby"/>
+        <display value="hFWaxTqHq1"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="RjeG2KedzW"/>
+    </product>
+    <eye value="left"/>
+    <sphere value="159921407340"/>
+    <cylinder value="335715768832"/>
+    <axis value="363935215"/>
+    <prism>
+      <amount value="378062386265"/>
+      <base value="down"/>
+    </prism>
+    <add value="253995676674"/>
+    <power value="242017261319"/>
+    <backCurve value="439987883847"/>
+    <diameter value="541284137238"/>
+    <duration>
+      <value value="478487324023"/>
+      <unit value="H2u3hHcL1l"/>
+      <system value="n2AOHn3aNU"/>
+      <code value="0LtsktHt6J"/>
+    </duration>
+    <color value="VLqMScChKP"/>
+    <brand value="9bZn0mZNbH"/>
+    <note>
+      <authorReference>
+        <reference value="Practitioner/RQJwCDcfMK"/>
+        <type value="Practitioner"/>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="1UReB77WQ6"/>
+              <version value="jwd2055xQg"/>
+              <code value="YHjgCWgtLf"/>
+              <display value="VVy3bIatnF"/>
+              <userSelected value="true"/>
+            </coding>
+            <text value="NjoipTiTaE"/>
+          </type>
+          <system value="fI1juodBrQ"/>
+          <value value="DzftCp74So"/>
+          <period>
+            <start value="2021-04-12T14:34:28.103-05:00"/>
+            <end value="2021-04-12T14:34:28.103-05:00"/>
+          </period>
+        </identifier>
+        <display value="s9s6RfFtmS"/>
+      </authorReference>
+      <time value="2021-04-12T14:34:28.104-05:00"/>
+      <text value="GYYK8TBTaV"/>
+    </note>
+  </lensSpecification>
+</VisionPrescription>

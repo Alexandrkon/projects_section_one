@@ -1,0 +1,155 @@
+<Questionnaire xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="14Htn1vJw6"/>
+    <lastUpdated value="2021-04-12T14:34:26.876-05:00"/>
+    <source value="wK8WPJBAAM"/>
+    <profile value="m08ZqqCiqv"/>
+    <security>
+      <system value="St9q87lFyY"/>
+      <version value="HVGIs9dkjx"/>
+      <code value="Myxffieklx"/>
+      <display value="F2kZDoXU4s"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="aRiAAX6l9I"/>
+      <version value="XsRCvTuumH"/>
+      <code value="cNsvmKT2yt"/>
+      <display value="48WnLMgKDo"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="dDWvEPlnzO"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="07vvXgtVfH"/>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="kvHAi3fylV"/>
+        <version value="X6FIVkKvl7"/>
+        <code value="mWvpbDH4Xs"/>
+        <display value="__9MeRfE37"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="pzcPhd5TsO"/>
+    </type>
+    <system value="BpNxjjAAqp"/>
+    <value value="UtMrFEZmak"/>
+    <period>
+      <start value="2021-04-12T14:34:26.873-05:00"/>
+      <end value="2021-04-12T14:34:26.873-05:00"/>
+    </period>
+  </identifier>
+  <version value="RaQGerbmpP"/>
+  <name value="cZZ2gkERtY"/>
+  <title value="rUmR6vsaLC"/>
+  <derivedFrom value="ZLXYg6RXDY"/>
+  <status value="unknown"/>
+  <experimental value="true"/>
+  <subjectType value="Medication"/>
+  <date value="2021-04-12T14:34:26.875-05:00"/>
+  <publisher value="i6_fV_sFFD"/>
+  <contact>
+    <name value="OZbvZzO6t1"/>
+    <telecom>
+      <system value="url"/>
+      <value value="cXG5n324Hi"/>
+      <use value="old"/>
+      <rank value="2011479112"/>
+      <period>
+        <start value="2021-04-12T14:34:26.874-05:00"/>
+        <end value="2021-04-12T14:34:26.874-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <description value="GDJ5qkNXwD"/>
+  <useContext>
+    <code>
+      <system value="5GiSks3BC_"/>
+      <version value="pJqoSXEvkZ"/>
+      <code value="LQ2j_CbYke"/>
+      <display value="5VUK9BxZmC"/>
+      <userSelected value="true"/>
+    </code>
+    <valueReference>
+      <reference value="PlanDefinition/HvOv3dWN2A"/>
+      <type value="PlanDefinition"/>
+      <identifier>
+        <use value="official"/>
+        <type>
+          <coding>
+            <system value="BBEIAjW5hy"/>
+            <version value="1UjLvilQIK"/>
+            <code value="INtZPwuJUJ"/>
+            <display value="9usKInT3di"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="8tV0aCdt08"/>
+        </type>
+        <system value="6vfhMpeTtQ"/>
+        <value value="RlwaI7wmrD"/>
+        <period>
+          <start value="2021-04-12T14:34:26.871-05:00"/>
+          <end value="2021-04-12T14:34:26.871-05:00"/>
+        </period>
+      </identifier>
+      <display value="p8t2jDihE6"/>
+    </valueReference>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="e5sTJuAbQu"/>
+      <version value="WdnlkkfXap"/>
+      <code value="Y2gdlPljXO"/>
+      <display value="pX1G7dHqao"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="NYmxggeTLN"/>
+  </jurisdiction>
+  <purpose value="nXWQaF8wjK"/>
+  <copyright value="UDk0C0gGhh"/>
+  <approvalDate value="2021-04-12"/>
+  <lastReviewDate value="2021-04-12"/>
+  <effectivePeriod>
+    <start value="2021-04-12T14:34:26.872-05:00"/>
+    <end value="2021-04-12T14:34:26.872-05:00"/>
+  </effectivePeriod>
+  <code>
+    <system value="yk3UwEOKOv"/>
+    <version value="hay16R5UPx"/>
+    <code value="x2L4_kX1eI"/>
+    <display value="j7fu8uvMOL"/>
+    <userSelected value="true"/>
+  </code>
+  <item>
+    <linkId value="tTNQUPYd1q"/>
+    <definition value="Cg8S8IxJO0"/>
+    <code>
+      <system value="W_rSmUNeiy"/>
+      <version value="f0s5S9vtjL"/>
+      <code value="ovKqRyEH5d"/>
+      <display value="689UgLdggY"/>
+      <userSelected value="true"/>
+    </code>
+    <prefix value="O1iSkmzsrp"/>
+    <text value="Ur9DKLoeeq"/>
+    <type value="decimal"/>
+    <enableWhen>
+      <question value="1FKK2laqhO"/>
+      <operator value="&gt;"/>
+      <answerDate value="2021-04-12"/>
+    </enableWhen>
+    <enableBehavior value="all"/>
+    <required value="true"/>
+    <repeats value="true"/>
+    <readOnly value="true"/>
+  </item>
+</Questionnaire>

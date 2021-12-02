@@ -1,0 +1,274 @@
+<Patient xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="XKkWqgsbOC"/>
+    <lastUpdated value="2021-04-12T14:34:37.136-05:00"/>
+    <source value="jzs2KOfyvK"/>
+    <profile value="F6wjLBX6Pv"/>
+    <security>
+      <system value="1mNitVZqfX"/>
+      <version value="AzG6Uk1BbK"/>
+      <code value="hL_0JbLqaP"/>
+      <display value="Fvii4JDjdC"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="R3cuKUEAXb"/>
+      <version value="y934RVPHWT"/>
+      <code value="rDGjgJnW_y"/>
+      <display value="hyeyK9WHfn"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="ND4F8dV9mR"/>
+  <language value="en-US"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="Mul8EvqUSK"/>
+        <version value="DigtzTzTkQ"/>
+        <code value="TnY3Ig02xC"/>
+        <display value="GvZKcg73lH"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="RPlzG8wl5Y"/>
+    </type>
+    <system value="pRRHKmGUbE"/>
+    <value value="UtcTORbmIj"/>
+    <period>
+      <start value="2021-04-12T14:34:37.124-05:00"/>
+      <end value="2021-04-12T14:34:37.125-05:00"/>
+    </period>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="anonymous"/>
+    <text value="B3UaLdr1z2"/>
+    <family value="Uv1U9kfvwM"/>
+    <given value="CehdfDn6c9"/>
+    <prefix value="mpr2Cju_57"/>
+    <suffix value="IQHe_zUCxC"/>
+    <period>
+      <start value="2021-04-12T14:34:37.135-05:00"/>
+      <end value="2021-04-12T14:34:37.135-05:00"/>
+    </period>
+  </name>
+  <telecom>
+    <system value="other"/>
+    <value value="tDNR3gYS3r"/>
+    <use value="mobile"/>
+    <rank value="1590899127"/>
+    <period>
+      <start value="2021-04-12T14:34:37.133-05:00"/>
+      <end value="2021-04-12T14:34:37.133-05:00"/>
+    </period>
+  </telecom>
+  <gender value="female"/>
+  <birthDate value="2021-04-12"/>
+  <deceasedDateTime value="2021-04-12T14:34:37.124-05:00"/>
+  <address>
+    <use value="old"/>
+    <type value="postal"/>
+    <text value="npDpGUMqha"/>
+    <line value="zfgOHqtT_I"/>
+    <city value="zYTvobnnhL"/>
+    <district value="bampUnu_op"/>
+    <state value="EIpuQ5TzVO"/>
+    <postalCode value="GkikeApvMh"/>
+    <country value="7fh2YfISGg"/>
+    <period>
+      <start value="2021-04-12T14:34:37.135-05:00"/>
+      <end value="2021-04-12T14:34:37.136-05:00"/>
+    </period>
+  </address>
+  <maritalStatus>
+    <coding>
+      <system value="DoTZfBj8iO"/>
+      <version value="zpemNNKjTs"/>
+      <code value="LMasv1rFuS"/>
+      <display value="ENVRVFAQra"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="j8MiHrNyAC"/>
+  </maritalStatus>
+  <multipleBirthInteger value="291260350"/>
+  <photo>
+    <contentType value="ESLEyN2ZWl"/>
+    <language value="en-US"/>
+    <data value="M3hyf3E="/>
+    <url value="SFzWEONQ8o"/>
+    <size value="1983270114"/>
+    <hash value="PGZJGRQ="/>
+    <title value="E6svGnR3hL"/>
+    <creation value="2021-04-12T14:34:37.123-05:00"/>
+  </photo>
+  <contact>
+    <relationship>
+      <coding>
+        <system value="7hVcxMLehz"/>
+        <version value="HsetgyQmEB"/>
+        <code value="Wug3tNqjL4"/>
+        <display value="DYEeeHuUyD"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="fjFTZxp8go"/>
+    </relationship>
+    <name>
+      <use value="nickname"/>
+      <text value="LuFi9l3VFm"/>
+      <family value="YodIWzcKEd"/>
+      <given value="UPPzzqyZyk"/>
+      <prefix value="0O8wlpCkmU"/>
+      <suffix value="3c7CSd2NNg"/>
+      <period>
+        <start value="2021-04-12T14:34:37.131-05:00"/>
+        <end value="2021-04-12T14:34:37.131-05:00"/>
+      </period>
+    </name>
+    <telecom>
+      <system value="pager"/>
+      <value value="IaOJJOyfQr"/>
+      <use value="work"/>
+      <rank value="663178124"/>
+      <period>
+        <start value="2021-04-12T14:34:37.13-05:00"/>
+        <end value="2021-04-12T14:34:37.13-05:00"/>
+      </period>
+    </telecom>
+    <address>
+      <use value="old"/>
+      <type value="both"/>
+      <text value="SWEV8TjmbD"/>
+      <line value="xsvyOccJt8"/>
+      <city value="fEqdr_wKN8"/>
+      <district value="oHDygFc4Ix"/>
+      <state value="nY1G7NRGNq"/>
+      <postalCode value="WClpk3079j"/>
+      <country value="gdx7mHLrr5"/>
+      <period>
+        <start value="2021-04-12T14:34:37.132-05:00"/>
+        <end value="2021-04-12T14:34:37.132-05:00"/>
+      </period>
+    </address>
+    <gender value="female"/>
+    <organization>
+      <reference value="Organization/3P0erqo0qe"/>
+      <type value="Organization"/>
+      <identifier>
+        <use value="old"/>
+        <type>
+          <coding>
+            <system value="USvpwTyyn1"/>
+            <version value="9MBoVXVZIv"/>
+            <code value="ZHELhYdp2h"/>
+            <display value="x1G86Mk2aK"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="8LNqtfq6Fj"/>
+        </type>
+        <system value="tTw7MNvgk_"/>
+        <value value="z48IZbapuw"/>
+        <period>
+          <start value="2021-04-12T14:34:37.129-05:00"/>
+          <end value="2021-04-12T14:34:37.129-05:00"/>
+        </period>
+      </identifier>
+      <display value="vXBrWI_6lo"/>
+    </organization>
+    <period>
+      <start value="2021-04-12T14:34:37.128-05:00"/>
+      <end value="2021-04-12T14:34:37.128-05:00"/>
+    </period>
+  </contact>
+  <communication>
+    <language>
+      <coding>
+        <system value="urn:ietf:bcp:47"/>
+        <code value="en-US"/>
+      </coding>
+    </language>
+    <preferred value="true"/>
+  </communication>
+  <generalPractitioner>
+    <reference value="Organization/TNDPcvP11v"/>
+    <type value="Organization"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="go69BQRAQF"/>
+          <version value="oUjLOTqEFk"/>
+          <code value="QQRZWAphDs"/>
+          <display value="UTgGMiYwaK"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="1yC1Dy3ll2"/>
+      </type>
+      <system value="J5mKjLjj_z"/>
+      <value value="0SxdMp811_"/>
+      <period>
+        <start value="2021-04-12T14:34:37.137-05:00"/>
+        <end value="2021-04-12T14:34:37.137-05:00"/>
+      </period>
+    </identifier>
+    <display value="beFQYqGpLh"/>
+  </generalPractitioner>
+  <managingOrganization>
+    <reference value="Organization/MXZJLk7PqP"/>
+    <type value="Organization"/>
+    <identifier>
+      <use value="old"/>
+      <type>
+        <coding>
+          <system value="51gBGRKa6C"/>
+          <version value="sNkCSk8LWv"/>
+          <code value="677mK5t7Th"/>
+          <display value="FeIcN9rha7"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="GzxyXqjToy"/>
+      </type>
+      <system value="zQnPkU3PLa"/>
+      <value value="SJNFXiePEV"/>
+      <period>
+        <start value="2021-04-12T14:34:37.133-05:00"/>
+        <end value="2021-04-12T14:34:37.133-05:00"/>
+      </period>
+    </identifier>
+    <display value="GxvoY7H0gY"/>
+  </managingOrganization>
+  <link>
+    <other>
+      <reference value="RelatedPerson/L6ZVX4DVjn"/>
+      <type value="RelatedPerson"/>
+      <identifier>
+        <use value="old"/>
+        <type>
+          <coding>
+            <system value="S3HdwsU3Ei"/>
+            <version value="peCfUFcPWL"/>
+            <code value="_W4NGAsfur"/>
+            <display value="imVCV7gQOb"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="uetFwkB3UO"/>
+        </type>
+        <system value="qWebmcdEOb"/>
+        <value value="ZDAXAioRax"/>
+        <period>
+          <start value="2021-04-12T14:34:37.126-05:00"/>
+          <end value="2021-04-12T14:34:37.126-05:00"/>
+        </period>
+      </identifier>
+      <display value="mZbF6LkKJ_"/>
+    </other>
+    <type value="seealso"/>
+  </link>
+</Patient>

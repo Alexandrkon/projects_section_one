@@ -1,0 +1,116 @@
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="5qn-nd0T3N"/>
+    <lastUpdated value="2021-04-12T14:34:33.84-05:00"/>
+    <source value="9nUTrLHJXO"/>
+    <profile value="nuDz1A765a"/>
+    <security>
+      <system value="0IMaDyAHzV"/>
+      <version value="TAOiYyGISu"/>
+      <code value="2OhfscK0EJ"/>
+      <display value="ZxsxLZewp6"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="fwSw1IEszf"/>
+      <version value="3PFbWFRrHq"/>
+      <code value="orcnhNcQij"/>
+      <display value="0OSr0IqAVO"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="NgNJmlv_VZ"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="X_uMZtDxkT"/>
+  <version value="i3bIGFv609"/>
+  <name value="0zItEng7e1"/>
+  <title value="5OqN8r5Kcj"/>
+  <status value="retired"/>
+  <kind value="operation"/>
+  <experimental value="true"/>
+  <date value="2021-04-12T14:34:33.839-05:00"/>
+  <publisher value="VBQwUIVFCK"/>
+  <contact>
+    <name value="u8oO1nCKJA"/>
+    <telecom>
+      <system value="pager"/>
+      <value value="hOO9gCeLyt"/>
+      <use value="temp"/>
+      <rank value="736041267"/>
+      <period>
+        <start value="2021-04-12T14:34:33.834-05:00"/>
+        <end value="2021-04-12T14:34:33.835-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <description value="4GJ3cQ_7_g"/>
+  <useContext>
+    <code>
+      <system value="mNrFtvuJ8t"/>
+      <version value="h9E4a2j82l"/>
+      <code value="1h_92rUXIJ"/>
+      <display value="F6CWEcS3Om"/>
+      <userSelected value="true"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="3jZMDBZNXo"/>
+        <version value="HYYRhtC_qZ"/>
+        <code value="UaZWtzvGYA"/>
+        <display value="7_HnnKINXn"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="gCaAg3_bEg"/>
+    </valueCodeableConcept>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="j7BOHKCX0L"/>
+      <version value="0SOuBNgEw4"/>
+      <code value="zClfB1c9Z7"/>
+      <display value="fpMnTacaYi"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="b4P1VTaPUB"/>
+  </jurisdiction>
+  <purpose value="6BlVBTOJcP"/>
+  <affectsState value="true"/>
+  <code value="FMuLptFi_D"/>
+  <comment value="IpirMcUlhb"/>
+  <base value="o_GEnfEdGI"/>
+  <resource value="Immunization"/>
+  <system value="true"/>
+  <type value="true"/>
+  <instance value="true"/>
+  <inputProfile value="IkxZnjE9dR"/>
+  <outputProfile value="Fuv_7RjPy7"/>
+  <parameter>
+    <name value="M7h6MBIy35"/>
+    <use value="out"/>
+    <min value="850899835"/>
+    <max value="wiA80k0LDM"/>
+    <documentation value="XmPANAqvYA"/>
+    <type value="Meta"/>
+    <targetProfile value="hwjnyglsGu"/>
+    <searchType value="composite"/>
+    <binding>
+      <strength value="preferred"/>
+      <valueSet value="vr7v95EQnV"/>
+    </binding>
+    <referencedFrom>
+      <source value="e4l3MBt9lf"/>
+      <sourceId value="g0AU2_BAMn"/>
+    </referencedFrom>
+  </parameter>
+  <overload>
+    <parameterName value="J3C1pB7baS"/>
+    <comment value="CIUW4i9gar"/>
+  </overload>
+</OperationDefinition>

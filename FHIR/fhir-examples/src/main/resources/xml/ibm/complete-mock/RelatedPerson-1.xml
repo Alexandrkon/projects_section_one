@@ -1,0 +1,147 @@
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="SPYUSvduUM"/>
+    <lastUpdated value="2021-04-12T14:34:36.634-05:00"/>
+    <source value="HtJilsMur7"/>
+    <profile value="fWEmqncyYV"/>
+    <security>
+      <system value="Arqwy33pKx"/>
+      <version value="JZkpILwinD"/>
+      <code value="tt74ZXF1Vd"/>
+      <display value="lIQgv9crag"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="N5tnUsHvrH"/>
+      <version value="o9I_ItJTWo"/>
+      <code value="rsbzNcOlEc"/>
+      <display value="M7FLj4WP2j"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="B9OosZxVLq"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="secondary"/>
+    <type>
+      <coding>
+        <system value="Fgq0ow9uRl"/>
+        <version value="n_Ir1_oIIO"/>
+        <code value="6dkGEPaYTM"/>
+        <display value="a3YYkSNOlO"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="AsHiQIEuE2"/>
+    </type>
+    <system value="wKWpuzQJZg"/>
+    <value value="veBJ8IlkYI"/>
+    <period>
+      <start value="2021-04-12T14:34:36.631-05:00"/>
+      <end value="2021-04-12T14:34:36.631-05:00"/>
+    </period>
+  </identifier>
+  <active value="true"/>
+  <patient>
+    <reference value="Patient/31sPcXIeAd"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="F085DC9Aku"/>
+          <version value="0kHfxSR9TD"/>
+          <code value="93VWAfHt_2"/>
+          <display value="1KbAFfIF56"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="nk0k4A2XBk"/>
+      </type>
+      <system value="rDFwy5O9gv"/>
+      <value value="bsQ4QVrzm1"/>
+      <period>
+        <start value="2021-04-12T14:34:36.63-05:00"/>
+        <end value="2021-04-12T14:34:36.63-05:00"/>
+      </period>
+    </identifier>
+    <display value="0GB0CNznxh"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="rMCrGUAJae"/>
+      <version value="UMOvMsvuSS"/>
+      <code value="tg0nPYiyb6"/>
+      <display value="KK3OikN46r"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="QXNWhCeK8J"/>
+  </relationship>
+  <name>
+    <use value="old"/>
+    <text value="qJs2bMyuZp"/>
+    <family value="slsBoxD_m1"/>
+    <given value="l6umLDZ4k1"/>
+    <prefix value="jgPLJTZuAb"/>
+    <suffix value="dUUAcvwaJa"/>
+    <period>
+      <start value="2021-04-12T14:34:36.633-05:00"/>
+      <end value="2021-04-12T14:34:36.633-05:00"/>
+    </period>
+  </name>
+  <telecom>
+    <system value="url"/>
+    <value value="KfEFJDqM9y"/>
+    <use value="old"/>
+    <rank value="1688867118"/>
+    <period>
+      <start value="2021-04-12T14:34:36.632-05:00"/>
+      <end value="2021-04-12T14:34:36.632-05:00"/>
+    </period>
+  </telecom>
+  <gender value="unknown"/>
+  <birthDate value="2021-04-12"/>
+  <address>
+    <use value="billing"/>
+    <type value="physical"/>
+    <text value="4FmRq3QxQT"/>
+    <line value="LVMhxVPe3C"/>
+    <city value="4_S5iHqpzf"/>
+    <district value="rO6pDcPkps"/>
+    <state value="5p1byfRm2O"/>
+    <postalCode value="YamoveK64x"/>
+    <country value="GExERcaDTV"/>
+    <period>
+      <start value="2021-04-12T14:34:36.633-05:00"/>
+      <end value="2021-04-12T14:34:36.633-05:00"/>
+    </period>
+  </address>
+  <photo>
+    <contentType value="mEgmJRJBAB"/>
+    <language value="en-US"/>
+    <data value="BQh1ZR8="/>
+    <url value="Fk96xcCzhg"/>
+    <size value="588148056"/>
+    <hash value="XXYdEBc="/>
+    <title value="DTQR3uanmc"/>
+    <creation value="2021-04-12T14:34:36.629-05:00"/>
+  </photo>
+  <period>
+    <start value="2021-04-12T14:34:36.63-05:00"/>
+    <end value="2021-04-12T14:34:36.631-05:00"/>
+  </period>
+  <communication>
+    <language>
+      <coding>
+        <system value="urn:ietf:bcp:47"/>
+        <code value="en-US"/>
+      </coding>
+    </language>
+    <preferred value="true"/>
+  </communication>
+</RelatedPerson>

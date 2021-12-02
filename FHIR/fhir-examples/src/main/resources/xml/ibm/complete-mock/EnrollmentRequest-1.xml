@@ -1,0 +1,148 @@
+<EnrollmentRequest xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="wX6e8RpVAP"/>
+    <lastUpdated value="2021-04-12T14:34:23.046-05:00"/>
+    <source value="5QQmKUjZ_J"/>
+    <profile value="JXVzVvEeVv"/>
+    <security>
+      <system value="a4qvkNMkPw"/>
+      <version value="Bzs37Ii5En"/>
+      <code value="QEtnoSjZhO"/>
+      <display value="pGukyWtPuH"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="3orKxgO_kH"/>
+      <version value="ftIt_xsYI4"/>
+      <code value="9kx0ilhoiZ"/>
+      <display value="xxfP5WNSq0"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="f42uZa49ZV"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="QlExHQCHgx"/>
+        <version value="xWsH4hZvB_"/>
+        <code value="nC0818zDRJ"/>
+        <display value="TE5NyFkn4E"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="HzwzSsdzPA"/>
+    </type>
+    <system value="JSp5w10SsB"/>
+    <value value="xDC_UoJjAg"/>
+    <period>
+      <start value="2021-04-12T14:34:23.014-05:00"/>
+      <end value="2021-04-12T14:34:23.015-05:00"/>
+    </period>
+  </identifier>
+  <status value="cancelled"/>
+  <created value="2021-04-12T14:34:22.974-05:00"/>
+  <insurer>
+    <reference value="Organization/YZtsOOziOL"/>
+    <type value="Organization"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="4arj81qdEa"/>
+          <version value="5xEw_Oyo2S"/>
+          <code value="nRNy3Sa8QM"/>
+          <display value="l857nO2Eez"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="xvx4SOlCP2"/>
+      </type>
+      <system value="XnT3osoo9I"/>
+      <value value="2f4k4VRPTS"/>
+      <period>
+        <start value="2021-04-12T14:34:23.029-05:00"/>
+        <end value="2021-04-12T14:34:23.03-05:00"/>
+      </period>
+    </identifier>
+    <display value="gagkZHqlQE"/>
+  </insurer>
+  <provider>
+    <reference value="Practitioner/6dh5rv7rkG"/>
+    <type value="Practitioner"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="LrWt9AiJgY"/>
+          <version value="8MOWJJxR0Z"/>
+          <code value="6lkMbth2In"/>
+          <display value="NGcmatpbyP"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="pGT0AqfBMU"/>
+      </type>
+      <system value="pXKBlg6SxI"/>
+      <value value="bk65Ho0zxD"/>
+      <period>
+        <start value="2021-04-12T14:34:23.036-05:00"/>
+        <end value="2021-04-12T14:34:23.036-05:00"/>
+      </period>
+    </identifier>
+    <display value="WlpPL3k1vI"/>
+  </provider>
+  <candidate>
+    <reference value="Patient/okrBep1hrA"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="iJ556SCYXz"/>
+          <version value="ymDM_W_Fni"/>
+          <code value="jLU_RJ4rjm"/>
+          <display value="U0Zx1eYjh_"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="YYwZ4ZKQVb"/>
+      </type>
+      <system value="31J7wcIRB7"/>
+      <value value="O6UXNrtI0_"/>
+      <period>
+        <start value="2021-04-12T14:34:22.993-05:00"/>
+        <end value="2021-04-12T14:34:22.995-05:00"/>
+      </period>
+    </identifier>
+    <display value="1KdhiMF24z"/>
+  </candidate>
+  <coverage>
+    <reference value="Coverage/pabgILnetT"/>
+    <type value="Coverage"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="MnHl7fNkpY"/>
+          <version value="Nt6JY6jHJ3"/>
+          <code value="UYb5AF0CsR"/>
+          <display value="X81BpnaqpY"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="GxC02dqU6o"/>
+      </type>
+      <system value="Pp818KNc58"/>
+      <value value="i6DaC2RlDB"/>
+      <period>
+        <start value="2021-04-12T14:34:23.021-05:00"/>
+        <end value="2021-04-12T14:34:23.022-05:00"/>
+      </period>
+    </identifier>
+    <display value="Q0Og0VdY5x"/>
+  </coverage>
+</EnrollmentRequest>

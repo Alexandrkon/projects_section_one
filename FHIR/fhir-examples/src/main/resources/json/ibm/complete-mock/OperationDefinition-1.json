@@ -1,0 +1,147 @@
+{
+    "resourceType": "OperationDefinition",
+    "meta": {
+        "versionId": "5qn-nd0T3N",
+        "lastUpdated": "2021-04-12T14:34:33.84-05:00",
+        "source": "9nUTrLHJXO",
+        "profile": [
+            "nuDz1A765a"
+        ],
+        "security": [
+            {
+                "system": "0IMaDyAHzV",
+                "version": "TAOiYyGISu",
+                "code": "2OhfscK0EJ",
+                "display": "ZxsxLZewp6",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "fwSw1IEszf",
+                "version": "3PFbWFRrHq",
+                "code": "orcnhNcQij",
+                "display": "0OSr0IqAVO",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "NgNJmlv_VZ",
+    "language": "en-US",
+    "text": {
+        "status": "empty",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "url": "X_uMZtDxkT",
+    "version": "i3bIGFv609",
+    "name": "0zItEng7e1",
+    "title": "5OqN8r5Kcj",
+    "status": "retired",
+    "kind": "operation",
+    "experimental": true,
+    "date": "2021-04-12T14:34:33.839-05:00",
+    "publisher": "VBQwUIVFCK",
+    "contact": [
+        {
+            "name": "u8oO1nCKJA",
+            "telecom": [
+                {
+                    "system": "pager",
+                    "value": "hOO9gCeLyt",
+                    "use": "temp",
+                    "rank": 736041267,
+                    "period": {
+                        "start": "2021-04-12T14:34:33.834-05:00",
+                        "end": "2021-04-12T14:34:33.835-05:00"
+                    }
+                }
+            ]
+        }
+    ],
+    "description": "4GJ3cQ_7_g",
+    "useContext": [
+        {
+            "code": {
+                "system": "mNrFtvuJ8t",
+                "version": "h9E4a2j82l",
+                "code": "1h_92rUXIJ",
+                "display": "F6CWEcS3Om",
+                "userSelected": true
+            },
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "3jZMDBZNXo",
+                        "version": "HYYRhtC_qZ",
+                        "code": "UaZWtzvGYA",
+                        "display": "7_HnnKINXn",
+                        "userSelected": true
+                    }
+                ],
+                "text": "gCaAg3_bEg"
+            }
+        }
+    ],
+    "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "j7BOHKCX0L",
+                    "version": "0SOuBNgEw4",
+                    "code": "zClfB1c9Z7",
+                    "display": "fpMnTacaYi",
+                    "userSelected": true
+                }
+            ],
+            "text": "b4P1VTaPUB"
+        }
+    ],
+    "purpose": "6BlVBTOJcP",
+    "affectsState": true,
+    "code": "FMuLptFi_D",
+    "comment": "IpirMcUlhb",
+    "base": "o_GEnfEdGI",
+    "resource": [
+        "Immunization"
+    ],
+    "system": true,
+    "type": true,
+    "instance": true,
+    "inputProfile": "IkxZnjE9dR",
+    "outputProfile": "Fuv_7RjPy7",
+    "parameter": [
+        {
+            "name": "M7h6MBIy35",
+            "use": "out",
+            "min": 850899835,
+            "max": "wiA80k0LDM",
+            "documentation": "XmPANAqvYA",
+            "type": "Meta",
+            "targetProfile": [
+                "hwjnyglsGu"
+            ],
+            "searchType": "composite",
+            "binding": {
+                "strength": "preferred",
+                "valueSet": "vr7v95EQnV"
+            },
+            "referencedFrom": [
+                {
+                    "source": "e4l3MBt9lf",
+                    "sourceId": "g0AU2_BAMn"
+                }
+            ]
+        }
+    ],
+    "overload": [
+        {
+            "parameterName": [
+                "J3C1pB7baS"
+            ],
+            "comment": "CIUW4i9gar"
+        }
+    ]
+}

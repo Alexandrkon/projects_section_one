@@ -1,0 +1,189 @@
+{
+    "resourceType": "DeviceMetric",
+    "meta": {
+        "versionId": "ktkgNGkkxo",
+        "lastUpdated": "2021-04-12T14:34:37.854-05:00",
+        "source": "KtKKQ2L_Fk",
+        "profile": [
+            "kaYI7fTu6E"
+        ],
+        "security": [
+            {
+                "system": "PrrtN5iZn4",
+                "version": "ORyMF0Mllr",
+                "code": "Y387aRG1RP",
+                "display": "rozoYXvIeB",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "x9LeDkzGGJ",
+                "version": "XigXDrwBe1",
+                "code": "C41IJuBkG1",
+                "display": "dv8AZbMmyh",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "pOTURRbegm",
+    "language": "en-US",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "identifier": [
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "8gVkfoA2EA",
+                        "version": "EtGnBQjVVU",
+                        "code": "JlMKOTxb38",
+                        "display": "AeQKUkKneO",
+                        "userSelected": true
+                    }
+                ],
+                "text": "cjiiHys31t"
+            },
+            "system": "1X7zXy760j",
+            "value": "JjoXelgjqj",
+            "period": {
+                "start": "2021-04-12T14:34:37.849-05:00",
+                "end": "2021-04-12T14:34:37.849-05:00"
+            }
+        }
+    ],
+    "type": {
+        "coding": [
+            {
+                "system": "iDcSxJ7bIM",
+                "version": "W6yDNag38d",
+                "code": "0oQSuTBaT9",
+                "display": "FRpKdK9jAX",
+                "userSelected": true
+            }
+        ],
+        "text": "76Gnq_qvAh"
+    },
+    "unit": {
+        "coding": [
+            {
+                "system": "eeWT7HtfWN",
+                "version": "m052qo8rVH",
+                "code": "TJ3oF6Is_G",
+                "display": "StMuMwSWru",
+                "userSelected": true
+            }
+        ],
+        "text": "lBFwWNOPz6"
+    },
+    "source": {
+        "reference": "Device/kJk9hl2suE",
+        "type": "Device",
+        "identifier": {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "0R3llr4AdL",
+                        "version": "O7eYJLqzYu",
+                        "code": "A5k8CITsR5",
+                        "display": "v6Z_DW8e89",
+                        "userSelected": true
+                    }
+                ],
+                "text": "t5J0MhQTyc"
+            },
+            "system": "H6itJvmVNz",
+            "value": "9gU8ASEGRo",
+            "period": {
+                "start": "2021-04-12T14:34:37.85-05:00",
+                "end": "2021-04-12T14:34:37.851-05:00"
+            }
+        },
+        "display": "HMTBzmQQ1H"
+    },
+    "parent": {
+        "reference": "Device/KAW9KXD1et",
+        "type": "Device",
+        "identifier": {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "rmwR4fu1bY",
+                        "version": "EiIumbHdzM",
+                        "code": "4etIcdGr8N",
+                        "display": "9qHVLSduxU",
+                        "userSelected": true
+                    }
+                ],
+                "text": "Qs0mAiOIlT"
+            },
+            "system": "p888svgfuU",
+            "value": "xcmm3OWz0l",
+            "period": {
+                "start": "2021-04-12T14:34:37.852-05:00",
+                "end": "2021-04-12T14:34:37.852-05:00"
+            }
+        },
+        "display": "j7OpmjlPsF"
+    },
+    "operationalStatus": "on",
+    "color": "blue",
+    "category": "measurement",
+    "measurementPeriod": {
+        "event": [
+            "2021-04-12T14:34:37.845-05:00"
+        ],
+        "repeat": {
+            "boundsDuration": {
+                "value": 263977315677,
+                "comparator": "<=",
+                "unit": "MI6qn1UdeF",
+                "system": "http://unitsofmeasure.org",
+                "code": "h"
+            },
+            "count": 1527271078,
+            "countMax": 976596180,
+            "duration": 387874106995,
+            "durationMax": 332845701948,
+            "durationUnit": "h",
+            "frequency": 201311494,
+            "frequencyMax": 1133313528,
+            "period": 133834158660,
+            "periodMax": 241525617969,
+            "periodUnit": "mo",
+            "dayOfWeek": [
+                "tue"
+            ],
+            "when": [
+                "ACV"
+            ]
+        },
+        "code": {
+            "coding": [
+                {
+                    "system": "U5lCIEqQpw",
+                    "version": "fhV4sk5aEo",
+                    "code": "VYd0OXZusg",
+                    "display": "YEH3Yb08m6",
+                    "userSelected": true
+                }
+            ],
+            "text": "gxUxSdnxUs"
+        }
+    },
+    "calibration": [
+        {
+            "type": "two-point",
+            "state": "calibrated",
+            "time": "2021-04-12T14:34:37.849-05:00"
+        }
+    ]
+}

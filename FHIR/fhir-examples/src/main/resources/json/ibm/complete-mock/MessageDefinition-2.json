@@ -1,0 +1,148 @@
+{
+    "resourceType": "MessageDefinition",
+    "meta": {
+        "versionId": "2s5DloRBPp",
+        "lastUpdated": "2021-04-12T14:34:28.133-05:00",
+        "source": "wLC2yrIhnw",
+        "profile": [
+            "zqbn3ExDN7"
+        ],
+        "security": [
+            {
+                "system": "zfUvWlK2MQ",
+                "version": "TMJPAsERmI",
+                "code": "BvLch4CfLL",
+                "display": "hgCzxDGa6j",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "x_8QpDFdvS",
+                "version": "oyPRmc0Kmp",
+                "code": "nLWEssHP_7",
+                "display": "flYFlkiv46",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "2UN57IxOZw",
+    "language": "en-US",
+    "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "url": "3Z9uTT_XBH",
+    "identifier": [
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "WI2cMSHzcA",
+                        "version": "8ROUdcix9d",
+                        "code": "0P6R7mTkvy",
+                        "display": "OaWM07Sfgp",
+                        "userSelected": true
+                    }
+                ],
+                "text": "uYk0_yksYE"
+            },
+            "system": "6sJfVi6wAZ",
+            "value": "EsKv2SdgGF",
+            "period": {
+                "start": "2021-04-12T14:34:28.13-05:00",
+                "end": "2021-04-12T14:34:28.13-05:00"
+            }
+        }
+    ],
+    "version": "69fdNJwfL2",
+    "name": "QVgLxFp400",
+    "title": "RJXX1jkD93",
+    "replaces": [
+        "MF326SUiRr"
+    ],
+    "status": "retired",
+    "experimental": true,
+    "date": "2021-04-12T14:34:28.133-05:00",
+    "publisher": "b5yNDoW9UU",
+    "contact": [
+        {
+            "name": "RBDYnt9Cy0",
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "mgtM1koOOc",
+                    "use": "temp",
+                    "rank": 1376532467,
+                    "period": {
+                        "start": "2021-04-12T14:34:28.131-05:00",
+                        "end": "2021-04-12T14:34:28.132-05:00"
+                    }
+                }
+            ]
+        }
+    ],
+    "description": "Z80X3a2jh8",
+    "useContext": [
+        {
+            "code": {
+                "system": "o8NFCO5zvA",
+                "version": "SCyM1SMPWA",
+                "code": "ECYO7oRVwf",
+                "display": "tXcHyz28yJ",
+                "userSelected": true
+            },
+            "valueQuantity": {
+                "value": 99559348606,
+                "comparator": ">=",
+                "unit": "avn8sFSIkC",
+                "system": "AJJLdgKPys",
+                "code": "NnH9ZBkwEg"
+            }
+        }
+    ],
+    "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "BTWtY6nHyG",
+                    "version": "Y43ULSiQBi",
+                    "code": "TkBSIO2MwY",
+                    "display": "gLC2KxleHD",
+                    "userSelected": true
+                }
+            ],
+            "text": "XtXvB7_lAl"
+        }
+    ],
+    "purpose": "hVH9EC1T6x",
+    "copyright": "1Z5RklcRji",
+    "base": "Buepx1WIn7",
+    "parent": [
+        "8kyKp9LBsD"
+    ],
+    "eventUri": "bfG694dCVQ",
+    "category": "notification",
+    "focus": [
+        {
+            "code": "Goal",
+            "profile": "oTAmYUoWxS",
+            "min": 519870922,
+            "max": "*"
+        }
+    ],
+    "responseRequired": "never",
+    "allowedResponse": [
+        {
+            "message": "Ancnaic7Ip",
+            "situation": "6OS924Uluc"
+        }
+    ],
+    "graph": [
+        "_ARr8sWzT6"
+    ]
+}

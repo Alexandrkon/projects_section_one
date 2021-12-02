@@ -1,0 +1,99 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="7OkkggtQig"/>
+    <lastUpdated value="2021-04-12T14:34:25.172-05:00"/>
+    <source value="X6a3nHaYWy"/>
+    <profile value="GcmhLBKADu"/>
+    <security>
+      <system value="uXtrBHUCEU"/>
+      <version value="jfAzxvBBnT"/>
+      <code value="kz8pRAvNIh"/>
+      <display value="jIYm7lbyzR"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="iSynHxukiz"/>
+      <version value="xImNEovPgD"/>
+      <code value="7l7x4h0nI1"/>
+      <display value="wLQezoAe38"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="vB7mbPTo2H"/>
+  <language value="en-US"/>
+  <text>
+    <status value="extensions"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="GLUnizsPWN"/>
+  <version value="D72ofs_N8j"/>
+  <name value="o9Gh9VHhED"/>
+  <derivedFrom value="ytcMtMImEI"/>
+  <status value="retired"/>
+  <experimental value="true"/>
+  <date value="2021-04-12T14:34:25.17-05:00"/>
+  <publisher value="fmBxv2fvCE"/>
+  <contact>
+    <name value="vCDO_rFcoV"/>
+    <telecom>
+      <system value="sms"/>
+      <value value="Q9XcDXe5H3"/>
+      <use value="work"/>
+      <rank value="1572954498"/>
+      <period>
+        <start value="2021-04-12T14:34:25.168-05:00"/>
+        <end value="2021-04-12T14:34:25.169-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <description value="ddUk7ehWge"/>
+  <useContext>
+    <code>
+      <system value="91EJfF8HFS"/>
+      <version value="QHmd8wYF7k"/>
+      <code value="EKvVjvvxJu"/>
+      <display value="dzc1WNZJ9W"/>
+      <userSelected value="true"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="HpKVlgN4pG"/>
+        <version value="AOdi9_N_ml"/>
+        <code value="kdqTEWcWn_"/>
+        <display value="c768Jt3skc"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="wnp7DJVmhT"/>
+    </valueCodeableConcept>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="WqZ6brZDuB"/>
+      <version value="0g5F5tWfcB"/>
+      <code value="yI5PKJJ5B4"/>
+      <display value="TtbKXhlJRe"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="lIXln8D4ab"/>
+  </jurisdiction>
+  <purpose value="pCOHaijhZM"/>
+  <code value="D8pXCVxf0e"/>
+  <base value="CapabilityStatement"/>
+  <type value="date"/>
+  <expression value="4eRK2GHHgm"/>
+  <xpath value="pqjVySNvTx"/>
+  <xpathUsage value="distance"/>
+  <target value="Linkage"/>
+  <multipleOr value="true"/>
+  <multipleAnd value="true"/>
+  <comparator value="eq"/>
+  <modifier value="identifier"/>
+  <chain value="F8weOLeQ2h"/>
+  <component>
+    <definition value="wX2a5cogd8"/>
+    <expression value="JOliIED4YL"/>
+  </component>
+</SearchParameter>

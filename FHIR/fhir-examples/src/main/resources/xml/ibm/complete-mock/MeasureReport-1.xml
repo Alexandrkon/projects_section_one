@@ -1,0 +1,286 @@
+<MeasureReport xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="2LGuEAGwRE"/>
+    <lastUpdated value="2021-04-12T14:34:34.577-05:00"/>
+    <source value="Xj2KO00Qpp"/>
+    <profile value="0Bsh_ih47h"/>
+    <security>
+      <system value="6SkyHUWrTJ"/>
+      <version value="l9LvxBDNXl"/>
+      <code value="2bHjqrXcYh"/>
+      <display value="7puAm5IBps"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="siMcMdZQh7"/>
+      <version value="Zmmafu_TiH"/>
+      <code value="Dub5T4Ncrh"/>
+      <display value="GyMCehQMFl"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="QLQJeMK1qm"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="secondary"/>
+    <type>
+      <coding>
+        <system value="kOzUhIxLMR"/>
+        <version value="ayGDJMCpSJ"/>
+        <code value="U1OqCVkNDu"/>
+        <display value="H4F4a_0OM0"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="Ih0nVBITLW"/>
+    </type>
+    <system value="Y35XMrOGmG"/>
+    <value value="AuKUYyATxH"/>
+    <period>
+      <start value="2021-04-12T14:34:34.544-05:00"/>
+      <end value="2021-04-12T14:34:34.544-05:00"/>
+    </period>
+  </identifier>
+  <status value="complete"/>
+  <type value="individual"/>
+  <measure value="glMaDBXj1h"/>
+  <subject>
+    <reference value="Patient/c0vVZHbGO5"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="NTcVtVy5wV"/>
+          <version value="ExbmXvnLXq"/>
+          <code value="40Jo4U8YWD"/>
+          <display value="rm8lDfKBeD"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="AgIEyG2jMz"/>
+      </type>
+      <system value="QXMRb7EtOs"/>
+      <value value="w0cYe5jkzy"/>
+      <period>
+        <start value="2021-04-12T14:34:34.568-05:00"/>
+        <end value="2021-04-12T14:34:34.568-05:00"/>
+      </period>
+    </identifier>
+    <display value="lkbisDgYhl"/>
+  </subject>
+  <date value="2021-04-12T14:34:34.577-05:00"/>
+  <reporter>
+    <reference value="Practitioner/2AYWCuuD9S"/>
+    <type value="Practitioner"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="ntI3GgaAlZ"/>
+          <version value="XpiRak3QAW"/>
+          <code value="EsreYRgRbV"/>
+          <display value="a3P4nSP3Pf"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="QCV3bp_INo"/>
+      </type>
+      <system value="h5mDeBv22z"/>
+      <value value="ZphxZYj60S"/>
+      <period>
+        <start value="2021-04-12T14:34:34.578-05:00"/>
+        <end value="2021-04-12T14:34:34.578-05:00"/>
+      </period>
+    </identifier>
+    <display value="IOJNp5OOr7"/>
+  </reporter>
+  <period>
+    <start value="2021-04-12T14:34:34.541-05:00"/>
+    <end value="2021-04-12T14:34:34.541-05:00"/>
+  </period>
+  <improvementNotation>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/measure-improvement-notation"/>
+      <version value="4.0.1"/>
+      <code value="increase"/>
+      <display value="Increased score indicates improvement"/>
+      <userSelected value="false"/>
+    </coding>
+    <text value="increase"/>
+  </improvementNotation>
+  <group>
+    <code>
+      <coding>
+        <system value="TC4qAYJucB"/>
+        <version value="x009uWbAsM"/>
+        <code value="NOQqiQ0Vmv"/>
+        <display value="z9H7aabmgy"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="FhNRX6RSzY"/>
+    </code>
+    <population>
+      <code>
+        <coding>
+          <system value="qkAkYmmHeo"/>
+          <version value="KGgDhgDLuz"/>
+          <code value="XptWzPAxl4"/>
+          <display value="797X8osTor"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="BVKzNHBDte"/>
+      </code>
+      <count value="1400966480"/>
+      <subjectResults>
+        <reference value="List/UWFgM4f0Db"/>
+        <type value="List"/>
+        <identifier>
+          <use value="old"/>
+          <type>
+            <coding>
+              <system value="x8qvcgrUDr"/>
+              <version value="fJgXi1kul8"/>
+              <code value="UxE0S69i3n"/>
+              <display value="X_O6xKYJVK"/>
+              <userSelected value="true"/>
+            </coding>
+            <text value="fJXw2vueJP"/>
+          </type>
+          <system value="3BPbkbZuMy"/>
+          <value value="11olC8oWQy"/>
+          <period>
+            <start value="2021-04-12T14:34:34.57-05:00"/>
+            <end value="2021-04-12T14:34:34.57-05:00"/>
+          </period>
+        </identifier>
+        <display value="hKUBEETbdo"/>
+      </subjectResults>
+    </population>
+    <measureScore>
+      <value value="249449098859"/>
+      <comparator value="&gt;="/>
+      <unit value="JX6jiVjDxH"/>
+      <system value="jjA8s3X2od"/>
+      <code value="_Wy8b3JkML"/>
+    </measureScore>
+    <stratifier>
+      <code>
+        <coding>
+          <system value="a0jl0q5h9V"/>
+          <version value="IUlc67kL9q"/>
+          <code value="I4D7E1iLx_"/>
+          <display value="G9GDch5EfM"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="Jw1MM39V8C"/>
+      </code>
+      <stratum>
+        <value>
+          <coding>
+            <system value="hKd_HlaGuD"/>
+            <version value="TQTOV_WsY7"/>
+            <code value="d5H6ZeJ6bA"/>
+            <display value="09aQoGmKn7"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="09nBdMoAti"/>
+        </value>
+        <component>
+          <code>
+            <coding>
+              <system value="E29u4tmr5N"/>
+              <version value="BwMI4wnKnJ"/>
+              <code value="o3r8lHiX41"/>
+              <display value="L3siZEBcR_"/>
+              <userSelected value="true"/>
+            </coding>
+            <text value="pc_6fElNly"/>
+          </code>
+          <value>
+            <coding>
+              <system value="FKIwStbJCG"/>
+              <version value="rrC3nnyCyt"/>
+              <code value="TmpDrwW0AP"/>
+              <display value="FmQvgXFnqE"/>
+              <userSelected value="true"/>
+            </coding>
+            <text value="2PP62WoNpd"/>
+          </value>
+        </component>
+        <population>
+          <code>
+            <coding>
+              <system value="tCgQbg85Gd"/>
+              <version value="w4TxlXlGvh"/>
+              <code value="wbUbh5Y9f4"/>
+              <display value="6TRX2z4rN5"/>
+              <userSelected value="true"/>
+            </coding>
+            <text value="b8peoFA5FY"/>
+          </code>
+          <count value="2073884302"/>
+          <subjectResults>
+            <reference value="List/HYLYHqu3Ry"/>
+            <type value="List"/>
+            <identifier>
+              <use value="temp"/>
+              <type>
+                <coding>
+                  <system value="q_GQ1u2Cw4"/>
+                  <version value="ktZCS7Wszf"/>
+                  <code value="DP2_mHm91W"/>
+                  <display value="QgAcrqxc9j"/>
+                  <userSelected value="true"/>
+                </coding>
+                <text value="z6ydJ4JACH"/>
+              </type>
+              <system value="gxXiBvs_eS"/>
+              <value value="uN5clncUNL"/>
+              <period>
+                <start value="2021-04-12T14:34:34.573-05:00"/>
+                <end value="2021-04-12T14:34:34.574-05:00"/>
+              </period>
+            </identifier>
+            <display value="omnV58q30a"/>
+          </subjectResults>
+        </population>
+        <measureScore>
+          <value value="255256692584"/>
+          <comparator value="&gt;="/>
+          <unit value="R4vXKqhEA9"/>
+          <system value="7w7S_Y1i7e"/>
+          <code value="fcTEqlt4b1"/>
+        </measureScore>
+      </stratum>
+    </stratifier>
+  </group>
+  <evaluatedResource>
+    <reference value="Basic/jPpkLXVrcC"/>
+    <type value="Basic"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="hfUwzMKsIZ"/>
+          <version value="9puA3kcYJv"/>
+          <code value="U8ePvGiGMU"/>
+          <display value="o9hTxaRrR4"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="WNqX1mcKi_"/>
+      </type>
+      <system value="Gsp26Fxol0"/>
+      <value value="aYc97JodLF"/>
+      <period>
+        <start value="2021-04-12T14:34:34.542-05:00"/>
+        <end value="2021-04-12T14:34:34.542-05:00"/>
+      </period>
+    </identifier>
+    <display value="u78lvohejP"/>
+  </evaluatedResource>
+</MeasureReport>

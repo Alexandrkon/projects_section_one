@@ -1,0 +1,271 @@
+{
+    "resourceType": "SupplyDelivery",
+    "meta": {
+        "versionId": "jLrXiPhG8N",
+        "lastUpdated": "2021-04-12T14:34:34.719-05:00",
+        "source": "c8WgsA2UWt",
+        "profile": [
+            "WK6AYExygK"
+        ],
+        "security": [
+            {
+                "system": "MXLtaBZM5u",
+                "version": "cbYZ5X0gXe",
+                "code": "ml4jvkNd8M",
+                "display": "UIw0NvnLYu",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "ev8sRPv8ks",
+                "version": "BhofN44iDb",
+                "code": "Ht6v5fZkBD",
+                "display": "4V94N121O1",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "MqwRLp8vdR",
+    "language": "en-US",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "identifier": [
+        {
+            "use": "temp",
+            "type": {
+                "coding": [
+                    {
+                        "system": "eFWvtf42u8",
+                        "version": "mWj3Ey2ivo",
+                        "code": "8nBWewskTl",
+                        "display": "WrTkY1LSGl",
+                        "userSelected": true
+                    }
+                ],
+                "text": "SyMFuruCpb"
+            },
+            "system": "6RIPS3_c9q",
+            "value": "JKYhRFpABY",
+            "period": {
+                "start": "2021-04-12T14:34:34.717-05:00",
+                "end": "2021-04-12T14:34:34.717-05:00"
+            }
+        }
+    ],
+    "basedOn": [
+        {
+            "reference": "SupplyRequest/uQCoeAjrsE",
+            "type": "SupplyRequest",
+            "identifier": {
+                "use": "temp",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "XSlMoZbt2w",
+                            "version": "3ygGY5yf_s",
+                            "code": "6o2SEBpQhN",
+                            "display": "1edn7Np6mn",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "g41CemoUkW"
+                },
+                "system": "sc1VeShGxc",
+                "value": "CDL7ia31zu",
+                "period": {
+                    "start": "2021-04-12T14:34:34.715-05:00",
+                    "end": "2021-04-12T14:34:34.715-05:00"
+                }
+            },
+            "display": "IE86MCiCz2"
+        }
+    ],
+    "partOf": [
+        {
+            "reference": "Contract/UClh8Fimqv",
+            "type": "Contract",
+            "identifier": {
+                "use": "usual",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "z0fcGtflyA",
+                            "version": "rCJc6S66Uh",
+                            "code": "EDpS2FqA4i",
+                            "display": "ToMRbZeTxT",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "SW7EpyoiRq"
+                },
+                "system": "mJzp7AyGlH",
+                "value": "AeKkp8LL80",
+                "period": {
+                    "start": "2021-04-12T14:34:34.714-05:00",
+                    "end": "2021-04-12T14:34:34.714-05:00"
+                }
+            },
+            "display": "LrBkLTyyfs"
+        }
+    ],
+    "status": "in-progress",
+    "patient": {
+        "reference": "Patient/7WQMRKfVwJ",
+        "type": "Patient",
+        "identifier": {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "BbPq3JwJ2q",
+                        "version": "4eMD1x0Q_m",
+                        "code": "0Vm0YnQxSF",
+                        "display": "T5DWyezgFp",
+                        "userSelected": true
+                    }
+                ],
+                "text": "LDOgItuVwZ"
+            },
+            "system": "UzYrylkJ0u",
+            "value": "ECSrjjpU9z",
+            "period": {
+                "start": "2021-04-12T14:34:34.716-05:00",
+                "end": "2021-04-12T14:34:34.716-05:00"
+            }
+        },
+        "display": "N5rTGUOMoc"
+    },
+    "type": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/supply-item-type",
+                "version": "4.0.1",
+                "code": "medication",
+                "display": "medication",
+                "userSelected": false
+            }
+        ],
+        "text": "medication"
+    },
+    "suppliedItem": {
+        "quantity": {
+            "value": 271037980246,
+            "unit": "JenUQvRWWH",
+            "system": "n7u7nRnvll",
+            "code": "Mj6sTl5j1w"
+        },
+        "itemReference": {
+            "reference": "Medication/TL-xnT2Lyh",
+            "type": "Medication",
+            "identifier": {
+                "use": "old",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "7X6OEajH7s",
+                            "version": "0M7l6eyb3i",
+                            "code": "Kmyo00C5I_",
+                            "display": "uYG6GjsvcD",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "l_F9vN1fMT"
+                },
+                "system": "pfrhxP9BWe",
+                "value": "kWserbcTHB",
+                "period": {
+                    "start": "2021-04-12T14:34:34.721-05:00",
+                    "end": "2021-04-12T14:34:34.721-05:00"
+                }
+            },
+            "display": "X933XZm4UK"
+        }
+    },
+    "occurrenceDateTime": "2021-04-12T14:34:34.718-05:00",
+    "supplier": {
+        "reference": "Practitioner/HQeEiA0tg6",
+        "type": "Practitioner",
+        "identifier": {
+            "use": "temp",
+            "type": {
+                "coding": [
+                    {
+                        "system": "Pf_yjbtAYK",
+                        "version": "YyZnHPmdg6",
+                        "code": "K1O2Ivdokm",
+                        "display": "cT6IJ7hKII",
+                        "userSelected": true
+                    }
+                ],
+                "text": "gQfyptwz_P"
+            },
+            "system": "qSHCyifbs3",
+            "value": "c6gbPJ5D2v",
+            "period": {
+                "start": "2021-04-12T14:34:34.711-05:00",
+                "end": "2021-04-12T14:34:34.712-05:00"
+            }
+        },
+        "display": "MvlBSTwZbJ"
+    },
+    "destination": {
+        "reference": "Location/QtzC9UMcv3",
+        "type": "Location",
+        "identifier": {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "PEUKWEat1w",
+                        "version": "cKjUJCtXQh",
+                        "code": "nufSxxRgJJ",
+                        "display": "4M29Ukc3lG",
+                        "userSelected": true
+                    }
+                ],
+                "text": "2ZAALfSHYj"
+            },
+            "system": "NUYj2KxQZP",
+            "value": "5G5TrVv5ew",
+            "period": {
+                "start": "2021-04-12T14:34:34.713-05:00",
+                "end": "2021-04-12T14:34:34.713-05:00"
+            }
+        },
+        "display": "cnXvroSop6"
+    },
+    "receiver": [
+        {
+            "reference": "PractitionerRole/Dq3Wu14hpB",
+            "type": "PractitionerRole",
+            "identifier": {
+                "use": "secondary",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "xANkC7jTz8",
+                            "version": "OXE2H4HjKA",
+                            "code": "t85ESB2Wx4",
+                            "display": "D8Qw7_4m4N",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "LkapqRes3Q"
+                },
+                "system": "EA5CcfxKGC",
+                "value": "Y2LsDPUQHx",
+                "period": {
+                    "start": "2021-04-12T14:34:34.718-05:00",
+                    "end": "2021-04-12T14:34:34.718-05:00"
+                }
+            },
+            "display": "fO8gMgeo7D"
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "resourceType": "Group",
+    "meta": {
+        "versionId": "RSr7LF7QOF",
+        "lastUpdated": "2021-04-12T14:34:33.395-05:00",
+        "source": "sqKDAC4dgK",
+        "profile": [
+            "6_gTvQdpE_"
+        ],
+        "security": [
+            {
+                "system": "M6ihAaPHsf",
+                "version": "qCayRcAeRU",
+                "code": "YT3CeOTk5F",
+                "display": "7_8cquP8JC",
+                "userSelected": true
+            }
+        ],
+        "tag": [
+            {
+                "system": "RwVPFqJKxh",
+                "version": "h8yVzsoPJP",
+                "code": "Yoqr9YOFAQ",
+                "display": "dcAMGMXwie",
+                "userSelected": true
+            },
+            {
+                "code": "ibm/complete-mock"
+            }
+        ]
+    },
+    "implicitRules": "mRG6JZ3hwz",
+    "language": "en-US",
+    "text": {
+        "status": "extensions",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"
+    },
+    "identifier": [
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "JqBfg7FFtT",
+                        "version": "PltpkjwsCC",
+                        "code": "SbA4Uqv11g",
+                        "display": "kNs1fIXGls",
+                        "userSelected": true
+                    }
+                ],
+                "text": "Kw4zQF9c3z"
+            },
+            "system": "lqi1E0B7TE",
+            "value": "hRJ3W36NIv",
+            "period": {
+                "start": "2021-04-12T14:34:33.391-05:00",
+                "end": "2021-04-12T14:34:33.391-05:00"
+            }
+        }
+    ],
+    "active": true,
+    "type": "practitioner",
+    "actual": true,
+    "code": {
+        "coding": [
+            {
+                "system": "kGZDTY3zi5",
+                "version": "TXAdtihf6W",
+                "code": "9pSitT2ELx",
+                "display": "8_EfcfqS7z",
+                "userSelected": true
+            }
+        ],
+        "text": "Ilzv5FfThb"
+    },
+    "name": "Ri_BBSH8op",
+    "quantity": 45871992,
+    "managingEntity": {
+        "reference": "Organization/lwjvrEhCD3",
+        "type": "Organization",
+        "identifier": {
+            "use": "old",
+            "type": {
+                "coding": [
+                    {
+                        "system": "zRXVJPhzD_",
+                        "version": "eGtXzl0n8R",
+                        "code": "Cqlw_77Cm2",
+                        "display": "mNB7m42Aa0",
+                        "userSelected": true
+                    }
+                ],
+                "text": "AT1AhKnt6F"
+            },
+            "system": "XzZnH5Ojh_",
+            "value": "CheSYKZDKA",
+            "period": {
+                "start": "2021-04-12T14:34:33.392-05:00",
+                "end": "2021-04-12T14:34:33.392-05:00"
+            }
+        },
+        "display": "VEdAzYTKVP"
+    },
+    "characteristic": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "g8nzAwjQOU",
+                        "version": "e_F2Arkfbb",
+                        "code": "9lufgGoTm1",
+                        "display": "EvnLHxj4nb",
+                        "userSelected": true
+                    }
+                ],
+                "text": "EFahZCCHLa"
+            },
+            "valueBoolean": true,
+            "exclude": true,
+            "period": {
+                "start": "2021-04-12T14:34:33.391-05:00",
+                "end": "2021-04-12T14:34:33.391-05:00"
+            }
+        }
+    ],
+    "member": [
+        {
+            "entity": {
+                "reference": "Patient/R5Y-QN98sv",
+                "type": "Patient",
+                "identifier": {
+                    "use": "usual",
+                    "type": {
+                        "coding": [
+                            {
+                                "system": "oFx1Y0K24_",
+                                "version": "1dJVxNqPPP",
+                                "code": "dRUBvCFlE0",
+                                "display": "xUQYaRAFay",
+                                "userSelected": true
+                            }
+                        ],
+                        "text": "ZfwIzXagjq"
+                    },
+                    "system": "rIwSz0Hd2C",
+                    "value": "Vuk2qtTTFK",
+                    "period": {
+                        "start": "2021-04-12T14:34:33.393-05:00",
+                        "end": "2021-04-12T14:34:33.394-05:00"
+                    }
+                },
+                "display": "F3vPE3G8uF"
+            },
+            "period": {
+                "start": "2021-04-12T14:34:33.393-05:00",
+                "end": "2021-04-12T14:34:33.393-05:00"
+            },
+            "inactive": true
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+<StructureMap xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="324c8e48fH"/>
+    <lastUpdated value="2021-04-12T14:34:25.852-05:00"/>
+    <source value="6KIbmBrjt4"/>
+    <profile value="DV4oKtqLOg"/>
+    <security>
+      <system value="3prS5mCXZd"/>
+      <version value="axVoaGtDsz"/>
+      <code value="BEgMBxeNh0"/>
+      <display value="S0CdZQKyTc"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="PAmJYqfQ73"/>
+      <version value="JVxGcMuRaF"/>
+      <code value="wBEFU_D3_H"/>
+      <display value="AwygNMiyxp"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="yWNAgmDcWr"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="te4fUbICD_"/>
+  <identifier>
+    <use value="secondary"/>
+    <type>
+      <coding>
+        <system value="nfFt5Elhyh"/>
+        <version value="Mbg6Y8A_DA"/>
+        <code value="sDeUn82nIT"/>
+        <display value="5TyIhQ43uh"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="ko4jZOmslx"/>
+    </type>
+    <system value="l64yMQX65H"/>
+    <value value="U3NNYw1oFv"/>
+    <period>
+      <start value="2021-04-12T14:34:25.839-05:00"/>
+      <end value="2021-04-12T14:34:25.84-05:00"/>
+    </period>
+  </identifier>
+  <version value="HKA3bfmM6M"/>
+  <name value="KbZo8NzW9B"/>
+  <title value="0ZYtiMdXmF"/>
+  <status value="unknown"/>
+  <experimental value="true"/>
+  <date value="2021-04-12T14:34:25.851-05:00"/>
+  <publisher value="IF27LH8lwX"/>
+  <contact>
+    <name value="w7463IQ0ON"/>
+    <telecom>
+      <system value="email"/>
+      <value value="uDd3dcq9Vz"/>
+      <use value="work"/>
+      <rank value="823134290"/>
+      <period>
+        <start value="2021-04-12T14:34:25.84-05:00"/>
+        <end value="2021-04-12T14:34:25.841-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <description value="BJJobMdWX0"/>
+  <useContext>
+    <code>
+      <system value="m6w5CSoqdY"/>
+      <version value="DYe50MUIjs"/>
+      <code value="ISlOf9VYoj"/>
+      <display value="t303RAG8Rl"/>
+      <userSelected value="true"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="4ViGJGyFmC"/>
+        <version value="HLgn1AQ8t1"/>
+        <code value="N4yvzES6hL"/>
+        <display value="PAKXoneQfx"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="tMcX3B6lbn"/>
+    </valueCodeableConcept>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="0_AxEGwVra"/>
+      <version value="SyOaAtf7vK"/>
+      <code value="XoVlxOHbwX"/>
+      <display value="dt4CLOm7uU"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="7OKvElEDOx"/>
+  </jurisdiction>
+  <purpose value="K2RU7rQjEC"/>
+  <copyright value="Au4q8DbXj8"/>
+  <structure>
+    <url value="l9LD48jPFx"/>
+    <mode value="produced"/>
+    <alias value="HdhmeWMIYF"/>
+    <documentation value="x6olqsJmj9"/>
+  </structure>
+  <import value="_VQfLxC0pI"/>
+  <group>
+    <name value="PtwUsFiMrJ"/>
+    <extends value="7dZEZASZEC"/>
+    <typeMode value="types"/>
+    <documentation value="5HlD7Tzrg5"/>
+    <input>
+      <name value="3KDbD8CmkG"/>
+      <type value="hdm0G6IiWb"/>
+      <mode value="source"/>
+      <documentation value="5Y2EvYYqTf"/>
+    </input>
+    <rule>
+      <name value="BqTqfanGpa"/>
+      <source>
+        <context value="VvhHbiiKsw"/>
+        <min value="47554628"/>
+        <max value="dGP6PM2n18"/>
+        <type value="sOCOoK7KKX"/>
+        <defaultValueBase64Binary value="DDBoNUg="/>
+        <element value="mIsJEyqCol"/>
+        <listMode value="first"/>
+        <variable value="7aG-xhT2g5"/>
+        <condition value="dgF0Y2QrHZ"/>
+        <check value="lIsuzJAaMS"/>
+        <logMessage value="pAfDmHgdCK"/>
+      </source>
+      <target>
+        <context value="zarlLXL6v8"/>
+        <contextType value="type"/>
+        <element value="yg7uh7bQ7Z"/>
+        <variable value="68YE338Uzm"/>
+        <listMode value="first"/>
+        <listRuleId value="pBlJgWQebm"/>
+        <transform value="evaluate"/>
+        <parameter>
+          <valueId value="WKt9kqpg4I"/>
+        </parameter>
+      </target>
+      <dependent>
+        <name value="6jHNtYzacq"/>
+        <variable value="b6Bp_jptiw"/>
+      </dependent>
+      <documentation value="GlIJHrOZuO"/>
+    </rule>
+  </group>
+</StructureMap>

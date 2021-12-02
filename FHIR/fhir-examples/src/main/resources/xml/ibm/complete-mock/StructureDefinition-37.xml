@@ -1,0 +1,329 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="R0JnpMFMoB"/>
+    <lastUpdated value="2021-04-12T14:34:30.025-05:00"/>
+    <source value="AlqDC62rao"/>
+    <profile value="KWFr2dxZ45"/>
+    <security>
+      <system value="OIBg6ykNLd"/>
+      <version value="YEtYeoBEz5"/>
+      <code value="6YXThrrJMh"/>
+      <display value="nAkwYXdPbJ"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="62dt1Wy8gX"/>
+      <version value="w9jLqwh3Nl"/>
+      <code value="vTNJO1TJ0S"/>
+      <display value="kuQcv6u_cU"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="aY_XpqK9ru"/>
+  <language value="en-US"/>
+  <text>
+    <status value="additional"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <url value="LwQNoxnqBF"/>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="0sXhHRkBdh"/>
+        <version value="WRbSeCL8pB"/>
+        <code value="owPI7MpjRF"/>
+        <display value="cuL7bzWvSq"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="_tKpvvF9FM"/>
+    </type>
+    <system value="gui2AZHR2W"/>
+    <value value="sltiGz5aNu"/>
+    <period>
+      <start value="2021-04-12T14:34:30.022-05:00"/>
+      <end value="2021-04-12T14:34:30.022-05:00"/>
+    </period>
+  </identifier>
+  <version value="awMlyxXdJM"/>
+  <name value="7chF66BkEp"/>
+  <title value="AAatweQ_vO"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-04-12T14:34:30.025-05:00"/>
+  <publisher value="rKEDHry4js"/>
+  <contact>
+    <name value="OtiH5uqeRr"/>
+    <telecom>
+      <system value="email"/>
+      <value value="NEnuIP4tQ_"/>
+      <use value="mobile"/>
+      <rank value="2094348312"/>
+      <period>
+        <start value="2021-04-12T14:34:30.023-05:00"/>
+        <end value="2021-04-12T14:34:30.023-05:00"/>
+      </period>
+    </telecom>
+  </contact>
+  <description value="1PnjoZ3mS7"/>
+  <useContext>
+    <code>
+      <system value="3SWGCwWsCH"/>
+      <version value="0FgQiYb2HP"/>
+      <code value="ZlRNsCNJui"/>
+      <display value="B5koQs43DT"/>
+      <userSelected value="true"/>
+    </code>
+    <valueReference>
+      <reference value="Organization/PGwvJu6akE"/>
+      <type value="Organization"/>
+      <identifier>
+        <use value="official"/>
+        <type>
+          <coding>
+            <system value="VDXa4sbobH"/>
+            <version value="0VnnvzqgKR"/>
+            <code value="IGL5OAmfUh"/>
+            <display value="4HmzwrWMLL"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="EkaYKg2wqv"/>
+        </type>
+        <system value="pTrcT6oAuo"/>
+        <value value="2_sVnNqjr1"/>
+        <period>
+          <start value="2021-04-12T14:34:30.02-05:00"/>
+          <end value="2021-04-12T14:34:30.02-05:00"/>
+        </period>
+      </identifier>
+      <display value="l0LfuFna5N"/>
+    </valueReference>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="qqCKC563o1"/>
+      <version value="ZcUV8cZvi_"/>
+      <code value="Z_yy1IvP0f"/>
+      <display value="OzqPtNxX6m"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="t68R0RS2Tx"/>
+  </jurisdiction>
+  <purpose value="WNAAgRzRLm"/>
+  <copyright value="7bfwppuCUO"/>
+  <keyword>
+    <system value="JXrYLmaFg5"/>
+    <version value="VdN8Yjdcx1"/>
+    <code value="5sE_PQhh4W"/>
+    <display value="7ftJVDdY1J"/>
+    <userSelected value="true"/>
+  </keyword>
+  <fhirVersion value="3.5.0"/>
+  <mapping>
+    <identity value="f4HHuK2gwm"/>
+    <uri value="YqsSxoUEjA"/>
+    <name value="Riq1c11Ybf"/>
+    <comment value="FVRFpNUpFR"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="true"/>
+  <context>
+    <type value="element"/>
+    <expression value="jG50SpJ8UY"/>
+  </context>
+  <contextInvariant value="u92HHMPgbo"/>
+  <type value="XeWgbt3eM9"/>
+  <baseDefinition value="ma1_96otSZ"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element>
+      <path value="nV5G1ZxHMS"/>
+      <representation value="typeAttr"/>
+      <sliceName value="5AoI74_Ou2"/>
+      <sliceIsConstraining value="true"/>
+      <label value="3C2c3Aklti"/>
+      <code>
+        <system value="IhkhumpbK9"/>
+        <version value="pT12qkdcZo"/>
+        <code value="CZCQewrpwG"/>
+        <display value="jmBnFnk9Ei"/>
+        <userSelected value="true"/>
+      </code>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="8ahiGYIOSY"/>
+        </discriminator>
+        <description value="cau0Efe_5v"/>
+        <ordered value="true"/>
+        <rules value="openAtEnd"/>
+      </slicing>
+      <short value="lGoIU0IMT1"/>
+      <definition value="wY0BWM4jwc"/>
+      <comment value="N5a5kNWYRv"/>
+      <requirements value="akM5s40Oa_"/>
+      <alias value="QhbP2UGpwo"/>
+      <min value="1152941937"/>
+      <max value="L8nSE9EnqR"/>
+      <base>
+        <path value="cgvEmloQoA"/>
+        <min value="258164470"/>
+        <max value="SfhQzDC6Re"/>
+      </base>
+      <contentReference value="kB98VmLCFS"/>
+      <type>
+        <code value="ffNGWupSPD"/>
+        <profile value="ISWBuOV7mL"/>
+        <targetProfile value="ma3rG0F5Zh"/>
+        <aggregation value="contained"/>
+        <versioning value="independent"/>
+      </type>
+      <defaultValuePositiveInt value="1071549760"/>
+      <meaningWhenMissing value="I7X255magV"/>
+      <orderMeaning value="3COkzlVJAe"/>
+      <fixedPositiveInt value="1104656441"/>
+      <patternPositiveInt value="471619808"/>
+      <example>
+        <label value="_Bw2GG8oeo"/>
+        <valuePositiveInt value="954544716"/>
+      </example>
+      <minValueQuantity>
+        <value value="115981423381"/>
+        <comparator value="&lt;"/>
+        <unit value="7yaO8tBcPK"/>
+        <system value="G1XKdBtiSg"/>
+        <code value="xuW0xiPuFy"/>
+      </minValueQuantity>
+      <maxValueQuantity>
+        <value value="473239660376"/>
+        <comparator value="&lt;="/>
+        <unit value="oIcST8dfYs"/>
+        <system value="jImO8J22j3"/>
+        <code value="eGXv2c4Pxr"/>
+      </maxValueQuantity>
+      <maxLength value="1478470210"/>
+      <condition value="ruYeOejcIb"/>
+      <constraint>
+        <key value="COoYitl2wE"/>
+        <requirements value="Nclqm70DXP"/>
+        <severity value="warning"/>
+        <human value="P8oazdd23E"/>
+        <expression value="GTSNW2Vh_B"/>
+        <xpath value="cISTCB3GMv"/>
+        <source value="PTglCulgwp"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="true"/>
+      <isModifierReason value="tEuIxoPOaK"/>
+      <isSummary value="true"/>
+      <binding>
+        <strength value="preferred"/>
+        <description value="RqtNkbxYMO"/>
+        <valueSet value="sbl2cx32ZR"/>
+      </binding>
+      <mapping>
+        <identity value="yNlPNufwsJ"/>
+        <language value="OXhxHO11xx"/>
+        <map value="XVhDuApTLY"/>
+        <comment value="bhP6bG1DSM"/>
+      </mapping>
+    </element>
+  </snapshot>
+  <differential>
+    <element>
+      <path value="UYOtFnqtj7"/>
+      <representation value="xhtml"/>
+      <sliceName value="LMypqTkuHO"/>
+      <sliceIsConstraining value="true"/>
+      <label value="mr2sU_yGDB"/>
+      <code>
+        <system value="zGk4HyfmVR"/>
+        <version value="z25pe_2qgL"/>
+        <code value="gXR93Feaph"/>
+        <display value="Q3ZG4VQH_C"/>
+        <userSelected value="true"/>
+      </code>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="xPJ29brgOM"/>
+        </discriminator>
+        <description value="2uBFHXJP2T"/>
+        <ordered value="true"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="dNxuoAA5SX"/>
+      <definition value="3M0jVap7F1"/>
+      <comment value="MOF2RmpgPj"/>
+      <requirements value="gPOd746yk4"/>
+      <alias value="zAJfPr6EIr"/>
+      <min value="856392259"/>
+      <max value="RzJUZvvaD5"/>
+      <base>
+        <path value="ZTGryoUdCt"/>
+        <min value="355096978"/>
+        <max value="UA2ImlvvCH"/>
+      </base>
+      <contentReference value="k5zGb9UrPL"/>
+      <type>
+        <code value="IkCbqz3xVR"/>
+        <profile value="PRIuEm19fI"/>
+        <targetProfile value="Oz9qDYXbbE"/>
+        <aggregation value="contained"/>
+        <versioning value="either"/>
+      </type>
+      <defaultValuePositiveInt value="268174918"/>
+      <meaningWhenMissing value="DiDvM_EK4x"/>
+      <orderMeaning value="WMwIRtXAMP"/>
+      <fixedPositiveInt value="1691816544"/>
+      <patternPositiveInt value="832560518"/>
+      <example>
+        <label value="FmAQ1mZ7FX"/>
+        <valuePositiveInt value="872114554"/>
+      </example>
+      <minValueQuantity>
+        <value value="129671257131"/>
+        <comparator value="&gt;="/>
+        <unit value="yo3433iX3p"/>
+        <system value="QA0q_Pm9OI"/>
+        <code value="k5ojNqOylZ"/>
+      </minValueQuantity>
+      <maxValueQuantity>
+        <value value="490132492316"/>
+        <comparator value="&gt;="/>
+        <unit value="Heozy8fWT7"/>
+        <system value="R2n4rNZrxs"/>
+        <code value="KR_VSHpm8O"/>
+      </maxValueQuantity>
+      <maxLength value="486930814"/>
+      <condition value="LWb8AR5dm0"/>
+      <constraint>
+        <key value="SgA5SnBy6Y"/>
+        <requirements value="5B6fzlY8Gk"/>
+        <severity value="error"/>
+        <human value="j1NrJNzl2U"/>
+        <expression value="KytqurJzXT"/>
+        <xpath value="aXJwRvco7Z"/>
+        <source value="KyXODbULyQ"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="true"/>
+      <isModifierReason value="iFV4ysXsIV"/>
+      <isSummary value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <description value="pBHj2ypoCq"/>
+        <valueSet value="NDfEq7vbpW"/>
+      </binding>
+      <mapping>
+        <identity value="n32tp2IJDS"/>
+        <language value="JpoD0eLWOa"/>
+        <map value="iA5FM8tb0x"/>
+        <comment value="SD2IldD2zd"/>
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>

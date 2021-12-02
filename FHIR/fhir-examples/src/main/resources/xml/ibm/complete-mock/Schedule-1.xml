@@ -1,0 +1,110 @@
+<Schedule xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="cBiBNLNGW3"/>
+    <lastUpdated value="2021-04-12T14:34:32.739-05:00"/>
+    <source value="O7NTnCU7F3"/>
+    <profile value="MCCwWxZC4v"/>
+    <security>
+      <system value="8xjzOFl6mj"/>
+      <version value="yikGABVSwH"/>
+      <code value="sS8p08PHpK"/>
+      <display value="fZORImQo7M"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="rjXiGObhxE"/>
+      <version value="27bhOiWXif"/>
+      <code value="eIy1NrjswF"/>
+      <display value="ArqpN6Qoaw"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="KG27ZZncZr"/>
+  <language value="en-US"/>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="nqqUyQd36B"/>
+        <version value="Gm7wajbaVc"/>
+        <code value="v6Z4OPdJOv"/>
+        <display value="VnCXeU8UiM"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="ftXdYWrpsB"/>
+    </type>
+    <system value="txDXcNBgdD"/>
+    <value value="XCylm6xr8H"/>
+    <period>
+      <start value="2021-04-12T14:34:32.737-05:00"/>
+      <end value="2021-04-12T14:34:32.737-05:00"/>
+    </period>
+  </identifier>
+  <active value="true"/>
+  <serviceCategory>
+    <coding>
+      <system value="E78Y1K7q6I"/>
+      <version value="Yxqdi0rw79"/>
+      <code value="KU9wVFNuac"/>
+      <display value="HQ6N2ws9Qj"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="bEvD0VQT9c"/>
+  </serviceCategory>
+  <serviceType>
+    <coding>
+      <system value="zDTyfH96Un"/>
+      <version value="HosKeX4DDX"/>
+      <code value="PeGYAfilga"/>
+      <display value="4D4HKhEXog"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="QLjCgnpdh8"/>
+  </serviceType>
+  <specialty>
+    <coding>
+      <system value="cOOZRHqqE8"/>
+      <version value="5MY6JHTazr"/>
+      <code value="Ea7a8nSBlK"/>
+      <display value="9t4WHxvqMV"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="xkdWnkw6S_"/>
+  </specialty>
+  <actor>
+    <reference value="Patient/zLP4ROX9Ck"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="HN5IjpysvI"/>
+          <version value="jDpgRfPp0q"/>
+          <code value="P_PA7XIQ18"/>
+          <display value="lBJmN9kYI_"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="AzRzmE7wxy"/>
+      </type>
+      <system value="LtmB4ZqXWj"/>
+      <value value="qBKMA6KHB0"/>
+      <period>
+        <start value="2021-04-12T14:34:32.738-05:00"/>
+        <end value="2021-04-12T14:34:32.738-05:00"/>
+      </period>
+    </identifier>
+    <display value="VFcT0xEtgZ"/>
+  </actor>
+  <planningHorizon>
+    <start value="2021-04-12T14:34:32.74-05:00"/>
+    <end value="2021-04-12T14:34:32.74-05:00"/>
+  </planningHorizon>
+  <comment value="oH3PcdW5zL"/>
+</Schedule>

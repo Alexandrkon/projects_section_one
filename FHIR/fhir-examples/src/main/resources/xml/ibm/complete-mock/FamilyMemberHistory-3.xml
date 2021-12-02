@@ -1,0 +1,192 @@
+<FamilyMemberHistory xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="ILwjulMN3i"/>
+    <lastUpdated value="2021-04-12T14:34:33.732-05:00"/>
+    <source value="ePywZW_wxS"/>
+    <profile value="HWSGOuKj0d"/>
+    <security>
+      <system value="OIeozkwnTl"/>
+      <version value="SfwlsldqwF"/>
+      <code value="Av3BM6ltXc"/>
+      <display value="lXxy6JCu0T"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="4b3grxBFPl"/>
+      <version value="7pN1bPaduQ"/>
+      <code value="01B7WDIRpz"/>
+      <display value="g3Y5K3ayMD"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="Q6ZOewuwYs"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="F0BNrJRMwS"/>
+        <version value="iWxAVGBVnN"/>
+        <code value="yrtsMHsO_2"/>
+        <display value="J1DKh9tIkD"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="TOl6yFDxrY"/>
+    </type>
+    <system value="joq5PHA3hB"/>
+    <value value="MauAtQQY7b"/>
+    <period>
+      <start value="2021-04-12T14:34:33.729-05:00"/>
+      <end value="2021-04-12T14:34:33.729-05:00"/>
+    </period>
+  </identifier>
+  <instantiatesCanonical value="986gqf3bu3"/>
+  <instantiatesUri value="enqyuXIYuc"/>
+  <status value="completed"/>
+  <dataAbsentReason>
+    <coding>
+      <system value="pKqrKrmx1V"/>
+      <version value="pMJFRvxwOC"/>
+      <code value="ocftnpEu0E"/>
+      <display value="6SKU9HLCWA"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="ULbl6adUip"/>
+  </dataAbsentReason>
+  <patient>
+    <reference value="Patient/GEKA3YTbQd"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="LQAGVOs0LI"/>
+          <version value="BZUQXxSeYS"/>
+          <code value="nwsUAhLSAr"/>
+          <display value="kOpznHJpC7"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="b5TKz7x9mp"/>
+      </type>
+      <system value="YXeKO9NnU_"/>
+      <value value="fRqi4p40b1"/>
+      <period>
+        <start value="2021-04-12T14:34:33.726-05:00"/>
+        <end value="2021-04-12T14:34:33.726-05:00"/>
+      </period>
+    </identifier>
+    <display value="ibmKYG1hHZ"/>
+  </patient>
+  <date value="2021-04-12T14:34:33.731-05:00"/>
+  <name value="LBgpw3BGz9"/>
+  <relationship>
+    <coding>
+      <system value="fDiVKAnmg5"/>
+      <version value="ro9JD71qit"/>
+      <code value="3VcNjqJDQS"/>
+      <display value="qy64RGChqJ"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="xdjUkBhj5Y"/>
+  </relationship>
+  <sex>
+    <coding>
+      <system value="36aeH_m8nv"/>
+      <version value="6Cmsfq2EUO"/>
+      <code value="F6r8Vf7L1e"/>
+      <display value="O5zXbEoWKm"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="Nz0ThJ_2t4"/>
+  </sex>
+  <ageString value="Wy0SkCempS"/>
+  <estimatedAge value="true"/>
+  <deceasedAge>
+    <value value="280856389407"/>
+    <comparator value="&lt;="/>
+    <unit value="zsqmBxEafK"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="a"/>
+  </deceasedAge>
+  <reasonCode>
+    <coding>
+      <system value="31DWW9uEqy"/>
+      <version value="VQkXCS2noo"/>
+      <code value="AERiuaVSq9"/>
+      <display value="Qr_7SkDSBd"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="aKNxY_yVNU"/>
+  </reasonCode>
+  <reasonReference>
+    <reference value="AllergyIntolerance/S4LsdkC6WR"/>
+    <type value="AllergyIntolerance"/>
+    <identifier>
+      <use value="temp"/>
+      <type>
+        <coding>
+          <system value="1d6Vh_ANV2"/>
+          <version value="aweqUCNh0s"/>
+          <code value="DOhTSlTCg_"/>
+          <display value="LJVLj3WyBO"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="nLy79ZtSgy"/>
+      </type>
+      <system value="sq8mvPS0gB"/>
+      <value value="jU5UbNrqYs"/>
+      <period>
+        <start value="2021-04-12T14:34:33.724-05:00"/>
+        <end value="2021-04-12T14:34:33.724-05:00"/>
+      </period>
+    </identifier>
+    <display value="QKctsUADhd"/>
+  </reasonReference>
+  <note>
+    <authorString value="BCWB0jFDZT"/>
+    <time value="2021-04-12T14:34:33.73-05:00"/>
+    <text value="7Y0lDotZ6s"/>
+  </note>
+  <condition>
+    <code>
+      <coding>
+        <system value="jD3AFwmhoL"/>
+        <version value="e6lDfASOoH"/>
+        <code value="uo1qvl05cX"/>
+        <display value="GBDJtelIBz"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="VO9hTG3PQ1"/>
+    </code>
+    <outcome>
+      <coding>
+        <system value="iVtBpWAIN5"/>
+        <version value="EpO6YqEH4A"/>
+        <code value="yVrMIYcjzV"/>
+        <display value="GbQr1XWoP2"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="CX7sT4PO5J"/>
+    </outcome>
+    <contributedToDeath value="true"/>
+    <onsetAge>
+      <value value="116559017996"/>
+      <comparator value="&lt;="/>
+      <unit value="3raK1WMROI"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="a"/>
+    </onsetAge>
+    <note>
+      <authorString value="fRecDVh0Yd"/>
+      <time value="2021-04-12T14:34:33.723-05:00"/>
+      <text value="xh_QUtwNvi"/>
+    </note>
+  </condition>
+</FamilyMemberHistory>

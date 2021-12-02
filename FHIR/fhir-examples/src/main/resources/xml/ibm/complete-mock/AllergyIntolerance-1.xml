@@ -1,0 +1,273 @@
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <meta>
+    <versionId value="FoMdlA-2Gm"/>
+    <lastUpdated value="2021-04-12T14:34:28.805-05:00"/>
+    <source value="A0SozKlzGC"/>
+    <profile value="cPKE7v0y3b"/>
+    <security>
+      <system value="wNKQ9ou0jX"/>
+      <version value="ELVtHj8Flu"/>
+      <code value="QRUzWBBcKP"/>
+      <display value="w7FKs_TO0q"/>
+      <userSelected value="true"/>
+    </security>
+    <tag>
+      <system value="QDk9ksVG3s"/>
+      <version value="00Vd4JGNmB"/>
+      <code value="nWvBIXjJO9"/>
+      <display value="X0oix3pGu8"/>
+      <userSelected value="true"/>
+    </tag>
+    <tag>
+      <code value="ibm/complete-mock"/>
+    </tag>
+  </meta>
+  <implicitRules value="PqcepZFmhX"/>
+  <language value="en-US"/>
+  <text>
+    <status value="empty"/>
+    <div xmlns="http://www.w3.org/1999/xhtml"></div>
+  </text>
+  <identifier>
+    <use value="temp"/>
+    <type>
+      <coding>
+        <system value="DabLUEtgqi"/>
+        <version value="rwLV0yzWEj"/>
+        <code value="5loHHpS0_C"/>
+        <display value="SJblMI97sv"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="rGdyrWMYMm"/>
+    </type>
+    <system value="T2ywsWVuCN"/>
+    <value value="CfG86ANz9L"/>
+    <period>
+      <start value="2021-04-12T14:34:28.79-05:00"/>
+      <end value="2021-04-12T14:34:28.791-05:00"/>
+    </period>
+  </identifier>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <version value="4.0.1"/>
+      <code value="active"/>
+      <display value="Active"/>
+      <userSelected value="false"/>
+    </coding>
+    <text value="active"/>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+      <version value="4.0.1"/>
+      <code value="unconfirmed"/>
+      <display value="Unconfirmed"/>
+      <userSelected value="false"/>
+    </coding>
+    <text value="unconfirmed"/>
+  </verificationStatus>
+  <type value="allergy"/>
+  <category value="medication"/>
+  <criticality value="low"/>
+  <code>
+    <coding>
+      <system value="B550aT_bBE"/>
+      <version value="AYO4z7uCgO"/>
+      <code value="kUVJfWWkCl"/>
+      <display value="CRXI93vANJ"/>
+      <userSelected value="true"/>
+    </coding>
+    <text value="qrJ7tGIPYV"/>
+  </code>
+  <patient>
+    <reference value="Patient/uvAb3p0pFF"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="official"/>
+      <type>
+        <coding>
+          <system value="TzH_JZ04E7"/>
+          <version value="fn5Yz6Mk4c"/>
+          <code value="fvfjx8Ba3U"/>
+          <display value="6PjT2erM8x"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="JQMjrB2sdM"/>
+      </type>
+      <system value="UW6HjoEyUK"/>
+      <value value="SBcOp8aqg2"/>
+      <period>
+        <start value="2021-04-12T14:34:28.788-05:00"/>
+        <end value="2021-04-12T14:34:28.789-05:00"/>
+      </period>
+    </identifier>
+    <display value="clnG9AQdbN"/>
+  </patient>
+  <encounter>
+    <reference value="Encounter/mNqhSBSRB6"/>
+    <type value="Encounter"/>
+    <identifier>
+      <use value="secondary"/>
+      <type>
+        <coding>
+          <system value="0OYWnTjvc1"/>
+          <version value="LeS2XCKY_E"/>
+          <code value="VINq7huFf1"/>
+          <display value="nnLF2fbO3o"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="Z8Lmadx_1C"/>
+      </type>
+      <system value="N9AcFdVNts"/>
+      <value value="TD8uFWukA9"/>
+      <period>
+        <start value="2021-04-12T14:34:28.802-05:00"/>
+        <end value="2021-04-12T14:34:28.802-05:00"/>
+      </period>
+    </identifier>
+    <display value="tUlC1YSbUn"/>
+  </encounter>
+  <onsetDateTime value="2021-04-12T14:34:28.8-05:00"/>
+  <recordedDate value="2021-04-12T14:34:28.788-05:00"/>
+  <recorder>
+    <reference value="Practitioner/3dI9xoEOpM"/>
+    <type value="Practitioner"/>
+    <identifier>
+      <use value="usual"/>
+      <type>
+        <coding>
+          <system value="z1lxeqTFow"/>
+          <version value="09hgCr5Cuc"/>
+          <code value="1OzzWDqUQk"/>
+          <display value="A9R5e589F7"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="XhXymeS78D"/>
+      </type>
+      <system value="WbCQZaPgQl"/>
+      <value value="3CAW5FdRvx"/>
+      <period>
+        <start value="2021-04-12T14:34:28.787-05:00"/>
+        <end value="2021-04-12T14:34:28.787-05:00"/>
+      </period>
+    </identifier>
+    <display value="tauzbSFE4b"/>
+  </recorder>
+  <asserter>
+    <reference value="Patient/nwVjqyPs48"/>
+    <type value="Patient"/>
+    <identifier>
+      <use value="official"/>
+      <type>
+        <coding>
+          <system value="zcSUUWvI8G"/>
+          <version value="TdFUTauMPq"/>
+          <code value="XzT7HYH8xA"/>
+          <display value="FnQg8mwpkj"/>
+          <userSelected value="true"/>
+        </coding>
+        <text value="SvlThabVTO"/>
+      </type>
+      <system value="DG5Pi8jirD"/>
+      <value value="6L8aCN6G0T"/>
+      <period>
+        <start value="2021-04-12T14:34:28.794-05:00"/>
+        <end value="2021-04-12T14:34:28.794-05:00"/>
+      </period>
+    </identifier>
+    <display value="8xDGEfkneu"/>
+  </asserter>
+  <lastOccurrence value="2021-04-12T14:34:28.801-05:00"/>
+  <note>
+    <authorReference>
+      <reference value="Practitioner/4v3C5KH2Se"/>
+      <type value="Practitioner"/>
+      <identifier>
+        <use value="secondary"/>
+        <type>
+          <coding>
+            <system value="noVVFmskKB"/>
+            <version value="1CFxoKln3T"/>
+            <code value="TCHwtVH5JX"/>
+            <display value="DOOsqJIxMi"/>
+            <userSelected value="true"/>
+          </coding>
+          <text value="g_L5QBvTNm"/>
+        </type>
+        <system value="GCwKJGlu2L"/>
+        <value value="suSytJ57FM"/>
+        <period>
+          <start value="2021-04-12T14:34:28.793-05:00"/>
+          <end value="2021-04-12T14:34:28.793-05:00"/>
+        </period>
+      </identifier>
+      <display value="CqFe8Kyeeh"/>
+    </authorReference>
+    <time value="2021-04-12T14:34:28.794-05:00"/>
+    <text value="5PhNlq1xyD"/>
+  </note>
+  <reaction>
+    <substance>
+      <coding>
+        <system value="enMeNaN4P4"/>
+        <version value="O_U6MeHAxD"/>
+        <code value="P8t7DsKCm5"/>
+        <display value="MuHFdAq8Kp"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="6L2ZzhKRNO"/>
+    </substance>
+    <manifestation>
+      <coding>
+        <system value="6YrpJBSOAA"/>
+        <version value="oA4VzSBOAa"/>
+        <code value="8dWXsREwdW"/>
+        <display value="SE6SYmx0ll"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="c66SAv60ch"/>
+    </manifestation>
+    <description value="Xe4n48m55J"/>
+    <onset value="2021-04-12T14:34:28.798-05:00"/>
+    <severity value="severe"/>
+    <exposureRoute>
+      <coding>
+        <system value="g8wTEKUiFh"/>
+        <version value="ZFe9KsPKfy"/>
+        <code value="HTq40hALLQ"/>
+        <display value="YtMhjRZUiT"/>
+        <userSelected value="true"/>
+      </coding>
+      <text value="SvQ9BlEJbH"/>
+    </exposureRoute>
+    <note>
+      <authorReference>
+        <reference value="Practitioner/FvUOPAxRyb"/>
+        <type value="Practitioner"/>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="SGudiz_jro"/>
+              <version value="NVgE1rR5MX"/>
+              <code value="mydFS1QrVt"/>
+              <display value="IL_UclodkE"/>
+              <userSelected value="true"/>
+            </coding>
+            <text value="DvkNzpbwQI"/>
+          </type>
+          <system value="ATkO74Uw7L"/>
+          <value value="JuhNNDyXAc"/>
+          <period>
+            <start value="2021-04-12T14:34:28.797-05:00"/>
+            <end value="2021-04-12T14:34:28.797-05:00"/>
+          </period>
+        </identifier>
+        <display value="iewsi63VR0"/>
+      </authorReference>
+      <time value="2021-04-12T14:34:28.798-05:00"/>
+      <text value="Yzh0Hk8jjo"/>
+    </note>
+  </reaction>
+</AllergyIntolerance>
